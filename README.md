@@ -6,19 +6,22 @@ Denmark, Finland). It filters by your skills, keeps only roles you could
 realistically take (relocation/visa rules for an EU citizen), and flags whether
 the pay preserves your current **standard of living** vs. a Portugal baseline.
 
-Results are published as a static **GitHub Pages dashboard** — no email, no
-servers, no secrets required.
+Results are delivered two ways, no email/servers/secrets required:
+- **[`REPORT.md`](REPORT.md)** — a Markdown digest committed to the repo, readable
+  right on github.com (web + mobile), grouped by country with new roles first.
+- **GitHub Pages dashboard** — an interactive, filterable/sortable view
+  (requires a public repo or GitHub Pro; the workflow enables it automatically).
 
 ## How it works
 
 ```
  sources ─▶ normalise ─▶ match (skills + relocation + country + salary) ─▶ dedupe
-        ─▶ diff against seen_jobs.json ─▶ write docs/data.json ─▶ GitHub Pages
+        ─▶ diff against seen_jobs.json ─▶ REPORT.md + docs/data.json ─▶ commit / Pages
 ```
 
 A scheduled GitHub Actions workflow (`.github/workflows/daily.yml`) runs the
-pipeline every morning, remembers what it has already shown you, and redeploys
-the dashboard with newly-found roles flagged **NEW**.
+pipeline every morning, remembers what it has already shown you, commits the
+refreshed `REPORT.md`, and redeploys the dashboard with new roles flagged **NEW**.
 
 ## Job sources (all free)
 
@@ -83,8 +86,10 @@ explicitly advertise a relocation package or sponsorship.
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements-dev.txt
 
-python -m jobfinder.run --state data/seen_jobs.json -v   # fetch + build dashboard
-open docs/index.html                                     # view the dashboard
+python -m jobfinder.run --state data/seen_jobs.json -v   # fetch + build REPORT.md + dashboard
+open REPORT.md            # the digest
+# serve the dashboard locally (file:// blocks its fetch of data.json):
+python -m http.server -d docs 8765   # then open http://localhost:8765/
 
 ruff check . && pytest -q                                # lint + tests
 ```
@@ -100,8 +105,10 @@ ruff check . && pytest -q                                # lint + tests
 The daily workflow passes them through automatically; locally, export them
 before running.
 
-## Enable the dashboard (one-time)
+## The dashboard
 
-In the repo: **Settings → Pages → Build and deployment → Source: GitHub
-Actions**. After the first successful `Daily job finder` run, your dashboard is
-live at `https://<your-user>.github.io/relocation-job-finder/`.
+The daily workflow enables Pages automatically (via `actions/configure-pages`).
+After the first successful `Daily job finder` run, the dashboard is live at
+`https://<your-user>.github.io/relocationjobs/`. Pages needs a **public repo**
+or **GitHub Pro** — on a free private repo, use `REPORT.md` instead (it's always
+produced regardless).
