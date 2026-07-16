@@ -1,0 +1,61 @@
+name: Daily job finder
+
+on:
+  schedule:
+    - cron: "0 6 * * *"        # every day at 06:00 UTC
+  workflow_dispatch: {}          # allow manual runs from the Actions tab
+
+# Allow committing the state file and deploying the dashboard to Pages.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-job-finder
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the job finder
+        env:
+          # Optional: set these repo secrets to enable Adzuna (UK salary data).
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python -m jobfinder.run --state data/seen_jobs.json -v
+
+      - name: Persist seen-jobs state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/seen_jobs.json
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "chore: update seen jobs [skip ci]"
+            git push
+          fi
+
+      - name: Upload dashboard artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

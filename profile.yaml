@@ -1,0 +1,139 @@
+# =============================================================================
+# Personal job-search profile.  Edit this file to tune what the finder matches.
+# Everything here is used by the matcher; no code changes are needed.
+# =============================================================================
+
+candidate:
+  name: "Carlos Ferraz"
+  # Where you live today and your current gross yearly salary. These drive the
+  # "standard of living" salary floor computed for each target country.
+  current_country: "PT"          # Portugal
+  current_city: "Lisbon"
+  current_gross_salary: 60000    # EUR / year, gross
+  current_currency: "EUR"
+  # EU/EEA citizenship removes the need for visa sponsorship inside the EU/EEA.
+  # Set to true only if you hold an EU/EEA passport. The UK always needs a visa.
+  eu_eea_citizen: true
+
+# ------------------------------------------------------------------ job target
+target_roles:
+  # A job's title must contain at least one of these to be considered QA-related.
+  title_keywords:
+    - "qa"
+    - "quality assurance"
+    - "quality engineer"
+    - "test engineer"
+    - "test automation"
+    - "automation engineer"
+    - "sdet"
+    - "software engineer in test"
+    - "software development engineer in test"
+    - "test analyst"
+    - "test lead"
+    - "qa lead"
+    - "quality engineering"
+    - "tester"
+    - "testing"
+
+  # Skills / tools. Matches (title + description + tags) add to the relevance
+  # score. Weighted higher = more important to you.
+  skills:
+    - { name: "selenium", weight: 2 }
+    - { name: "playwright", weight: 3 }
+    - { name: "cypress", weight: 3 }
+    - { name: "appium", weight: 2 }
+    - { name: "api testing", weight: 2 }
+    - { name: "rest assured", weight: 2 }
+    - { name: "postman", weight: 1 }
+    - { name: "test automation", weight: 3 }
+    - { name: "automation framework", weight: 2 }
+    - { name: "ci/cd", weight: 1 }
+    - { name: "jenkins", weight: 1 }
+    - { name: "github actions", weight: 1 }
+    - { name: "docker", weight: 1 }
+    - { name: "kubernetes", weight: 1 }
+    - { name: "python", weight: 2 }
+    - { name: "java", weight: 2 }
+    - { name: "javascript", weight: 1 }
+    - { name: "typescript", weight: 1 }
+    - { name: "sql", weight: 1 }
+    - { name: "performance testing", weight: 1 }
+    - { name: "jmeter", weight: 1 }
+    - { name: "k6", weight: 1 }
+    - { name: "cucumber", weight: 1 }
+    - { name: "bdd", weight: 1 }
+    - { name: "agile", weight: 1 }
+    - { name: "manual testing", weight: 1 }
+    - { name: "mobile testing", weight: 1 }
+
+  # Seniority hints used only for display / light scoring.
+  seniority:
+    - "mid"
+    - "senior"
+
+  # Spoken languages you can work in. Used to lightly penalise ads that clearly
+  # require a language you don't speak (e.g. "flytende norsk"/"fluent Swedish").
+  languages_spoken:
+    - "english"
+    - "portuguese"
+
+# ------------------------------------------------------------- relocation rules
+relocation:
+  # Only surface jobs that offer relocation support (relocation package and/or
+  # visa sponsorship). Turn off to also see plain in-country jobs.
+  require_relocation_support: true
+  # Phrases that signal relocation / visa support in a job description.
+  signals:
+    - "relocation"
+    - "relocate"
+    - "relocation package"
+    - "relocation support"
+    - "relocation assistance"
+    - "visa sponsorship"
+    - "visa sponsor"
+    - "sponsor a visa"
+    - "sponsor your visa"
+    - "will sponsor"
+    - "we sponsor"
+    - "sponsorship available"
+    - "work permit"
+    - "work visa"
+    - "immigration support"
+    - "help you move"
+
+# ----------------------------------------------------------------- geography
+# Countries you'd relocate to (ISO-3166 alpha-2). UK == GB.
+target_countries:
+  - "GB"   # United Kingdom
+  - "NO"   # Norway
+  - "SE"   # Sweden
+  - "IS"   # Iceland
+  - "DK"   # Denmark
+  - "FI"   # Finland
+
+# Include worldwide/EU remote roles (from remote boards) when they allow one of
+# the target countries. These are tagged "remote" and ranked below on-site roles.
+include_remote: true
+
+# ------------------------------------------------------------------- salary
+salary:
+  # Keep the same standard of living as your current salary. The floor per
+  # country is derived from cost-of-living + typical net-of-tax ratios (see
+  # jobfinder/cost_of_living.py). A safety margin can be applied here.
+  standard_of_living_margin: 1.0   # 1.0 = exact parity, 1.1 = +10% cushion
+  # When a job lists no salary at all, keep it (True) or drop it (False).
+  keep_when_salary_unknown: true
+
+# ------------------------------------------------------------------- sources
+# Toggle individual job sources on/off.
+sources:
+  platsbanken: true    # Sweden (official public API)
+  nav: true            # Norway (official public API)
+  arbeitnow: true      # EU-wide board
+  landingjobs: true    # Portugal/EU tech board (has relocation + salary fields)
+  remoteok: true       # remote board
+  himalayas: true      # remote board
+  adzuna: true         # UK + more, richer salary data (needs free API key; see README)
+
+# How many results to request per query from each source.
+results_per_source: 100
