@@ -10,6 +10,7 @@ from .config import Profile
 from .matching import dedupe, match_all
 from .models import Job
 from .report import write_dashboard
+from .report_markdown import write_report
 from .sources import enabled_sources
 from .store import SeenStore
 
@@ -44,6 +45,7 @@ def run(profile_path: str | None = None, state_path: str | None = None,
     log.info("%d of them are new since last run", len(new_jobs))
 
     write_dashboard(profile, new_jobs, matches, new_uids)
+    write_report(profile, new_jobs, matches)
 
     if not dry_run:
         for job in matches:
