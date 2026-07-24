@@ -1,6 +1,6 @@
 # QA Relocation Job Digest
 
-_Updated 2026-07-23 08:41 UTC · 3 new · 119 active matches_
+_Updated 2026-07-24 08:37 UTC · 1 new · 116 active matches_
 
 Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-living floor.
 
@@ -19,13 +19,17 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
-| 20 | [Test Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31288099)<br><sub>Alten Sverige Aktiebolag · test automation, automation framework, ci/cd, jenkins, docker</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-22T11:09:45 |
-| 20 | [Entry Level: Software Developer - Test Automation](https://arbetsformedlingen.se/platsbanken/annonser/31288791)<br><sub>ERICSSON AB · test automation, automation framework, ci/cd, python, java</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-22T14:25:02 |
-| 18 | [Automotive Test Engineer – Infotainment / Connected Experience](https://arbetsformedlingen.se/platsbanken/annonser/30713862)<br><sub>Bertrandt Sverige AB · test automation, python, manual testing</sub> | Göteborg, Sweden | platsbanken | _not stated_ | 🛂 yes | 2026-03-09T11:07:20 |
+| 13 | [Manual QA Engineer](https://remoteOK.com/remote-jobs/remote-manual-qa-engineer-seeking-alpha-1135351)<br><sub>Seeking Alpha · java, javascript, sql, agile, manual testing</sub> | United Kingdom | remoteok | _not stated_ | remote | 2026-07-21 |
 
 ## All active matches
 
-### Norway (14)
+### United Kingdom (1)
+
+| Score | Role | Location | Source | Salary | Reloc | Posted |
+|------:|------|----------|--------|--------|-------|--------|
+| 13 | [Manual QA Engineer](https://remoteOK.com/remote-jobs/remote-manual-qa-engineer-seeking-alpha-1135351)<br><sub>Seeking Alpha · java, javascript, sql, agile, manual testing</sub> | United Kingdom | remoteok | _not stated_ | remote | 2026-07-21 |
+
+### Norway (13)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
@@ -40,11 +44,10 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 9 | [Quality Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/a914bf85-efff-4ba1-b3bc-c4c110ac05c6)<br><sub>VIANODE AS AVD PORSGRUNN · </sub> | Porsgrunn, Norway | nav | _not stated_ | — | 2026-07-13 |
 | 9 | [Quality Assurance Control, Manufacturing](https://arbeidsplassen.nav.no/stillinger/stilling/98b60f23-3588-4fb9-a0fe-4af7eab2b940)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-07-07 |
 | 9 | [Project Quality Assurance Manager](https://arbeidsplassen.nav.no/stillinger/stilling/81f6e6b5-3e34-4184-9891-8a9f509b9de6)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-06-26 |
-| 8 | [Kvalitetsinspektør QA/QC – Mekanisk produksjon](https://arbeidsplassen.nav.no/stillinger/stilling/a8bd6768-b346-4d9c-93b2-45e0b0932aa0)<br><sub>AKKODIS NORWAY AS AVD BERGEN · </sub> | Bergen, Norway | nav | _not stated_ | — | 2026-06-16 |
 | 8 | [QA Engineers](https://arbeidsplassen.nav.no/stillinger/stilling/9ec065b3-469c-43ca-ab9e-e89a9c3dc0fa)<br><sub>NAMMO RAUFOSS AS · </sub> | Raufoss, Norway | nav | _not stated_ | — | 2026-05-19 |
 | 8 | [Loop Test Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/c685d5f1-cdf5-492f-8576-9675f135d8b6)<br><sub>EURORESSURS AS AVD SANDNES · </sub> | Sandnes, Norway | nav | _not stated_ | — | 2025-09-18 |
 
-### Sweden (105)
+### Sweden (102)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
@@ -85,17 +88,14 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 11 | [Rig/Track Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31270496)<br><sub>Professional Galaxy AB · python</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-13T16:03:26 |
 | 11 | [Software Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31233014)<br><sub>Celsus Engineering AB · python</sub> | Sweden | platsbanken | _not stated_ | — | 2026-06-30T20:20:15 |
 | 11 | [Senior Embedded Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/30774193)<br><sub>Adavo AB · ci/cd, python</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-03-20T08:36:42 |
-| 11 | [SIL/HIL Test Engineer  18331/18325](https://arbetsformedlingen.se/platsbanken/annonser/31208335)<br><sub>Veritaz AB · python</sub> | Sweden | platsbanken | _not stated_ | — | 2026-06-23T19:52:25 |
 | 11 | [New Consulting Opportunity \| Battery Cell Test Engineer  Durability](https://arbetsformedlingen.se/platsbanken/annonser/31270914)<br><sub>Norvion Systems AB · python</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-13T20:03:45 |
-| 10 | [IT Quality Assurance Manager  18600  Stockholms län, Sweden](https://arbetsformedlingen.se/platsbanken/annonser/31280045)<br><sub>Veritaz AB · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-07-17T15:14:20 |
 | 10 | [Mjukvarutestare/ QA till IGT i Växjö](https://arbetsformedlingen.se/platsbanken/annonser/31274886)<br><sub>Maxkompetens Sverige AB · sql</sub> | Växjö, Sweden | platsbanken | _not stated_ | — | 2026-07-15T12:04:58 |
 | 10 | [Software Developer in Test (SDET)](https://arbetsformedlingen.se/platsbanken/annonser/31281048)<br><sub>Lynqa AB · ci/cd, java</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-19T12:06:21 |
+| 10 | [IT Quality Assurance Manager  18600  Stockholms län, Sweden](https://arbetsformedlingen.se/platsbanken/annonser/31280045)<br><sub>Veritaz AB · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-07-17T15:14:20 |
 | 10 | [Senior Backend Developer / Software Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/30712868)<br><sub>Zpark Energy Systems AB · sql, performance testing</sub> | Luleå, Sweden | platsbanken | _not stated_ | — | 2026-03-09T09:39:46 |
 | 10 | [Senior Backend Developer / Software Test Engineer - Gothenburg](https://arbetsformedlingen.se/platsbanken/annonser/30857198)<br><sub>Zpark Energy Systems AB · sql, performance testing</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-04-02T10:25:32 |
 | 10 | [Starta din karriär som Junior testare på ett internationellt företag i Lund](https://arbetsformedlingen.se/platsbanken/annonser/31253110)<br><sub>StudentConsulting Sweden AB (publ) · python, java, javascript, sql</sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-06T17:25:02 |
 | 10 | [Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31280308)<br><sub>SHL Medical AB · </sub> | Nacka, Sweden | platsbanken | _not stated_ | — | 2026-07-17T16:25:50 |
-| 10 | [Manufacturing Quality Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31277663)<br><sub>AXIS COMMUNICATIONS AKTIEBOLAG · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-16T15:54:41 |
-| 10 | [High Volume Quality Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31277576)<br><sub>AXIS COMMUNICATIONS AKTIEBOLAG · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-16T15:23:51 |
 | 10 | [Rotating Equipment Field and Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31284453)<br><sub>Northern Partners AB · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-07-20T15:39:10 |
 | 9 | [QA konsult](https://arbetsformedlingen.se/platsbanken/annonser/31259186)<br><sub>Randstad AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-08T13:45:09 |
 | 9 | [QA specialist](https://arbetsformedlingen.se/platsbanken/annonser/31253394)<br><sub>Professional Galaxy AB · </sub> | Uppsala, Sweden | platsbanken | _not stated_ | — | 2026-07-06T21:36:22 |
@@ -105,14 +105,12 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 9 | [Quality Assurance Controller \| Stockholm](https://arbetsformedlingen.se/platsbanken/annonser/31266496)<br><sub>LERNIA BEMANNING AB · </sub> | Solna, Sweden | platsbanken | _not stated_ | — | 2026-07-10T15:40:07 |
 | 9 | [Senior Quality Assurance Technician](https://arbetsformedlingen.se/platsbanken/annonser/31235762)<br><sub>SAAB AKTIEBOLAG · </sub> | Järfälla, Sweden | platsbanken | _not stated_ | — | 2026-07-01T12:39:47 |
 | 9 | [Quality Assurance (QA) Manager to Inossia AB](https://arbetsformedlingen.se/platsbanken/annonser/31247201)<br><sub>QRIOS AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-03T14:50:47 |
-| 9 | [Product Quality Assurance/Control](https://arbetsformedlingen.se/platsbanken/annonser/31205864)<br><sub>Siemens Energy AB · </sub> | Finspång, Sweden | platsbanken | _not stated_ | — | 2026-06-23T11:50:05 |
 | 9 | [Supplier Quality Assurance Engineer to Beyond Gravity Linköping](https://arbetsformedlingen.se/platsbanken/annonser/31248185)<br><sub>Beyond Gravity Sweden AB · </sub> | Linköping, Sweden | platsbanken | _not stated_ | — | 2026-07-03T17:07:20 |
 | 9 | [Test Engineer - Flying Probe](https://arbetsformedlingen.se/platsbanken/annonser/31261179)<br><sub>Westermo Network Technologies AB · </sub> | Eskilstuna, Sweden | platsbanken | _not stated_ | — | 2026-07-09T09:54:03 |
 | 9 | [Test Engineer - SEGULA Technologies Gothenburg](https://arbetsformedlingen.se/platsbanken/annonser/31271272)<br><sub>Marketpeople AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-14T08:25:55 |
 | 9 | [Senior Test Engineer – Verification & Validation (V&V)](https://arbetsformedlingen.se/platsbanken/annonser/31274237)<br><sub>Integro Consulting AB · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-15T09:59:45 |
 | 9 | [Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31262351)<br><sub>Scanfil Malmö AB · </sub> | Malmö, Sweden | platsbanken | _not stated_ | — | 2026-07-09T13:51:05 |
 | 9 | [Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31261661)<br><sub>PREFORM AB · </sub> | Laxå, Sweden | platsbanken | _not stated_ | — | 2026-07-09T11:35:00 |
-| 9 | [Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31266512)<br><sub>Mycronic AB (publ) · </sub> | Täby, Sweden | platsbanken | _not stated_ | — | 2026-07-10T16:37:20 |
 | 9 | [Quality engineer](https://arbetsformedlingen.se/platsbanken/annonser/31228722)<br><sub>New Terms AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-06-29T20:58:25 |
 | 9 | [Supplier Quality Manager/ Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31252326)<br><sub>Cubane Solutions AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-06T15:05:25 |
 | 9 | [Production Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31268720)<br><sub>SAAB AKTIEBOLAG · </sub> | Järfälla, Sweden | platsbanken | _not stated_ | — | 2026-07-13T09:48:03 |
@@ -123,6 +121,8 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 9 | [Production Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31258379)<br><sub>Avaron AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-08T11:20:40 |
 | 9 | [Advanced Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31245903)<br><sub>STONERIDGE ELECTRONICS AB · </sub> | Örebro, Sweden | platsbanken | _not stated_ | — | 2026-07-03T12:56:05 |
 | 9 | [Quality Engineer till UFAB](https://arbetsformedlingen.se/platsbanken/annonser/31251750)<br><sub>Bahusia Personalförmedling AB · </sub> | Uddevalla, Sweden | platsbanken | _not stated_ | — | 2026-07-06T13:32:08 |
+| 9 | [Manufacturing Quality Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31277663)<br><sub>AXIS COMMUNICATIONS AKTIEBOLAG · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-16T15:54:41 |
+| 9 | [High Volume Quality Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31277576)<br><sub>AXIS COMMUNICATIONS AKTIEBOLAG · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-16T15:23:51 |
 | 9 | [Quality Engineer \| Lernia \| Vimmerby](https://arbetsformedlingen.se/platsbanken/annonser/31265088)<br><sub>LERNIA BEMANNING AB · </sub> | Vimmerby, Sweden | platsbanken | _not stated_ | — | 2026-07-10T11:10:24 |
 | 9 | [Senior Quality Engineer – Mechanical Components](https://arbetsformedlingen.se/platsbanken/annonser/31243568)<br><sub>MiJob Bemanning & Rekrytering i Sverige AB · </sub> | Västerås, Sweden | platsbanken | _not stated_ | — | 2026-07-03T09:25:45 |
 | 9 | [Quality Engineer till TitanX Engine Cooling AB](https://arbetsformedlingen.se/platsbanken/annonser/31262294)<br><sub>Skill Kompetenspartner AB · </sub> | Linköping, Sweden | platsbanken | _not stated_ | — | 2026-07-09T13:41:48 |
@@ -131,7 +131,6 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 9 | [Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31238886)<br><sub>Combitech Aktiebolag · </sub> | Linköping, Sweden | platsbanken | _not stated_ | — | 2026-07-02T09:52:14 |
 | 9 | [Supplier Quality Manager/Supplier Quality Engineer (SQM/SQE)](https://arbetsformedlingen.se/platsbanken/annonser/31238343)<br><sub>AFRY AB · </sub> | Linköping, Sweden | platsbanken | _not stated_ | — | 2026-07-02T08:43:08 |
 | 9 | [Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31259820)<br><sub>Inmotion Technologies AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-08T15:31:50 |
-| 9 | [SQE, Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31206991)<br><sub>Rototilt Group AB · </sub> | Vindeln, Sweden | platsbanken | _not stated_ | — | 2026-06-23T14:25:21 |
 | 9 | [Senior Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31232626)<br><sub>Lyten AB · </sub> | Sundsvall, Sweden | platsbanken | _not stated_ | — | 2026-06-30T16:23:00 |
 | 8 | [QA Specialist / QA Engineer inom Life Science](https://arbetsformedlingen.se/platsbanken/annonser/31061829)<br><sub>QRIOS AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-05-20T15:42:14 |
 | 8 | [Senior QA Manager Validation & Quality](https://arbetsformedlingen.se/platsbanken/annonser/31193190)<br><sub>SallyQ AB · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-06-18T10:51:47 |
@@ -148,6 +147,7 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 8 | [Supplier Quality Engineer till internationellt bolag!](https://arbetsformedlingen.se/platsbanken/annonser/31129344)<br><sub>Friday Väst AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-06-02T16:30:13 |
 | 8 | [Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/30713368)<br><sub>Techrytera AB · </sub> | Västerås, Sweden | platsbanken | _not stated_ | — | 2026-03-09T10:25:24 |
 | 8 | [Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/30520207)<br><sub>Wabtec Faiveley Nordic AB · </sub> | Landskrona, Sweden | platsbanken | _not stated_ | — | 2026-01-26T13:34:21 |
+| 8 | [SQE, Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31206991)<br><sub>Rototilt Group AB · </sub> | Vindeln, Sweden | platsbanken | _not stated_ | — | 2026-06-23T14:25:21 |
 | 7 | [Mjukvaruutvecklare & Testingenjörer  ALTEN](https://arbetsformedlingen.se/platsbanken/annonser/31239100)<br><sub>Alten Sverige Aktiebolag · ci/cd</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-02T10:18:15 |
 | 6 | [QA](https://arbetsformedlingen.se/platsbanken/annonser/31262242)<br><sub>UNIMEDIC AKTIEBOLAG · </sub> | Sundsvall, Sweden | platsbanken | _not stated_ | — | 2026-07-09T13:28:55 |
 | 6 | [Quality Assurance tjänst till Ledande bolag i Göteborg!](https://arbetsformedlingen.se/platsbanken/annonser/31256484)<br><sub>Friday Väst AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-07T16:20:48 |
