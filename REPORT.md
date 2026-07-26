@@ -1,6 +1,6 @@
 # QA Relocation Job Digest
 
-_Updated 2026-07-25 08:18 UTC · 0 new · 112 active matches_
+_Updated 2026-07-26 08:36 UTC · 0 new · 110 active matches_
 
 Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-living floor.
 
@@ -38,7 +38,7 @@ _No new roles today._
 | 8 | [QA Engineers](https://arbeidsplassen.nav.no/stillinger/stilling/9ec065b3-469c-43ca-ab9e-e89a9c3dc0fa)<br><sub>NAMMO RAUFOSS AS · </sub> | Raufoss, Norway | nav | _not stated_ | — | 2026-05-19 |
 | 8 | [Loop Test Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/c685d5f1-cdf5-492f-8576-9675f135d8b6)<br><sub>EURORESSURS AS AVD SANDNES · </sub> | Sandnes, Norway | nav | _not stated_ | — | 2025-09-18 |
 
-### Sweden (100)
+### Sweden (98)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
@@ -46,10 +46,9 @@ _No new roles today._
 | 24 | [QA Test Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31240529)<br><sub>AXIS COMMUNICATIONS AKTIEBOLAG · api testing, test automation, automation framework, ci/cd, python</sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-02T13:07:10 |
 | 22 | [Senior QA Engineer / Test Automation Specialist](https://arbetsformedlingen.se/platsbanken/annonser/30674585)<br><sub>Agil arbetskraft Sverige GF AB · appium, test automation, automation framework, ci/cd, python</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-02-27T14:01:53 |
 | 22 | [Test Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31179165)<br><sub>AFRY AB · selenium, playwright, postman, test automation, python</sub> | Solna, Sweden | platsbanken | _not stated_ | — | 2026-06-15T13:31:26 |
+| 20 | [Software Test Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31284431)<br><sub>AXIS COMMUNICATIONS AKTIEBOLAG · test automation, automation framework, ci/cd, jenkins, python</sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-20T15:32:00 |
 | 20 | [Test Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31288099)<br><sub>Alten Sverige Aktiebolag · test automation, automation framework, ci/cd, jenkins, docker</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-22T11:09:45 |
 | 20 | [Entry Level: Software Developer - Test Automation](https://arbetsformedlingen.se/platsbanken/annonser/31288791)<br><sub>ERICSSON AB · test automation, automation framework, ci/cd, python, java</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-22T14:25:02 |
-| 20 | [Software Test Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31284431)<br><sub>AXIS COMMUNICATIONS AKTIEBOLAG · test automation, automation framework, ci/cd, jenkins, python</sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-20T15:32:00 |
-| 19 | [Senior Test Automation Framework Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31214017)<br><sub>Agile Resources AB · test automation, automation framework, jenkins, docker, python</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-06-25T08:54:15 |
 | 18 | [Senior Fullstack Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31091639)<br><sub>Agil arbetskraft Sverige GF AB · selenium, cypress, postman, ci/cd, java</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-05-27T16:02:04 |
 | 18 | [SW Test Engineer  ECU](https://arbetsformedlingen.se/platsbanken/annonser/31256784)<br><sub>Norvion Systems AB · test automation, python</sub> | Göteborg, Sweden | platsbanken | _not stated_ | 🛂 yes | 2026-07-07T19:47:55 |
 | 18 | [Senior Fullstack Test Engineer - Göteborg](https://arbetsformedlingen.se/platsbanken/annonser/31105404)<br><sub>Agil arbetskraft Sverige GF AB · selenium, cypress, postman, ci/cd, java</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-05-29T15:08:09 |
@@ -65,10 +64,10 @@ _No new roles today._
 | 14 | [Regular Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31278817)<br><sub>Luxoft Sweden AB · automation framework, ci/cd, python</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-17T10:10:20 |
 | 14 | [System Test Engineer  18458](https://arbetsformedlingen.se/platsbanken/annonser/31236051)<br><sub>Veritaz AB · test automation, python</sub> | Sweden | platsbanken | _not stated_ | — | 2026-07-01T13:29:20 |
 | 14 | [MEMS Electrical Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/30791124)<br><sub>Silex Microsystems AB · test automation, python, sql</sub> | Järfälla, Sweden | platsbanken | _not stated_ | — | 2026-03-24T10:45:17 |
-| 13 | [QA Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31280662)<br><sub>eEducation Albert AB · python, manual testing</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-18T10:52:15 |
 | 13 | [Test Automation Engineer  Autonomous & Safety-Critical Systems](https://arbetsformedlingen.se/platsbanken/annonser/31107446)<br><sub>Tatvanord AB · test automation, python</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-05-30T22:34:25 |
 | 13 | [Quality Assurance Engineer till Organic Response](https://arbetsformedlingen.se/platsbanken/annonser/30870644)<br><sub>A Hub AB · cypress, postman, typescript</sub> | Linköping, Sweden | platsbanken | _not stated_ | — | 2026-04-07T16:10:48 |
 | 13 | [Junior Development Test Engineer till Spännande Bolag](https://arbetsformedlingen.se/platsbanken/annonser/31189557)<br><sub>Friday Väst AB · jenkins, docker, kubernetes, python</sub> | Hässleholm, Sweden | platsbanken | _not stated_ | — | 2026-06-17T13:57:29 |
+| 12 | [QA Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31280662)<br><sub>eEducation Albert AB · python, manual testing</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-18T10:52:15 |
 | 12 | [Embedded Software Tester](https://arbetsformedlingen.se/platsbanken/annonser/31228109)<br><sub>Agile Resources AB · python, agile</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-06-29T16:02:48 |
 | 12 | [Flight Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31261208)<br><sub>SAAB AKTIEBOLAG · jenkins, python</sub> | Linköping, Sweden | platsbanken | _not stated_ | — | 2026-07-09T10:00:04 |
 | 12 | [System Test Engineer  Automotive](https://arbetsformedlingen.se/platsbanken/annonser/31199220)<br><sub>Bertrandt Sverige AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | 🛂 yes | 2026-06-22T10:22:50 |
@@ -135,7 +134,6 @@ _No new roles today._
 | 8 | [Attends söker en Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31173305)<br><sub>Attends Healthcare AB · </sub> | Aneby, Sweden | platsbanken | _not stated_ | — | 2026-06-12T13:24:45 |
 | 8 | [Supplier Quality Engineer till internationellt bolag!](https://arbetsformedlingen.se/platsbanken/annonser/31129344)<br><sub>Friday Väst AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-06-02T16:30:13 |
 | 8 | [Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/30713368)<br><sub>Techrytera AB · </sub> | Västerås, Sweden | platsbanken | _not stated_ | — | 2026-03-09T10:25:24 |
-| 8 | [Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/30520207)<br><sub>Wabtec Faiveley Nordic AB · </sub> | Landskrona, Sweden | platsbanken | _not stated_ | — | 2026-01-26T13:34:21 |
 | 8 | [SQE, Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31206991)<br><sub>Rototilt Group AB · </sub> | Vindeln, Sweden | platsbanken | _not stated_ | — | 2026-06-23T14:25:21 |
 | 7 | [Mjukvaruutvecklare & Testingenjörer  ALTEN](https://arbetsformedlingen.se/platsbanken/annonser/31239100)<br><sub>Alten Sverige Aktiebolag · ci/cd</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-02T10:18:15 |
 | 6 | [QA](https://arbetsformedlingen.se/platsbanken/annonser/31262242)<br><sub>UNIMEDIC AKTIEBOLAG · </sub> | Sundsvall, Sweden | platsbanken | _not stated_ | — | 2026-07-09T13:28:55 |
