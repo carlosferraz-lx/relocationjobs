@@ -3,8 +3,7 @@
 from __future__ import annotations
 
 import re
-from datetime import date, datetime
-from typing import Optional
+from datetime import datetime, timezone
 
 from .config import Profile
 from .cost_of_living import annualise, required_gross_eur, to_eur
@@ -42,7 +41,7 @@ def _needs_sponsorship(country: str, eu_citizen: bool) -> bool:
     return country not in EEA
 
 
-def _language_penalty(haystack: str, spoken: list[str]) -> Optional[str]:
+def _language_penalty(haystack: str, spoken: list[str]) -> str | None:
     for lang, phrases in _LANG_REQ.items():
         if lang in spoken:
             continue
@@ -51,14 +50,14 @@ def _language_penalty(haystack: str, spoken: list[str]) -> Optional[str]:
     return None
 
 
-def _recency_bonus(posted: Optional[str]) -> float:
+def _recency_bonus(posted: str | None) -> float:
     if not posted:
         return 0.0
     try:
         d = datetime.fromisoformat(posted[:10]).date()
     except ValueError:
         return 0.0
-    age = (date.today() - d).days
+    age = (datetime.now(timezone.utc).date() - d).days
     if age <= 7:
         return 2.0
     if age <= 30:
@@ -83,7 +82,7 @@ def _is_qa(job: Job, profile: Profile, skill_weight: float) -> bool:
     return body_qa and skill_weight >= 6
 
 
-def evaluate(job: Job, profile: Profile) -> Optional[Job]:
+def evaluate(job: Job, profile: Profile) -> Job | None:
     """Score a job and decide whether it survives the filters.
 
     Returns the enriched Job if it matches, else None.
@@ -115,9 +114,9 @@ def evaluate(job: Job, profile: Profile) -> Optional[Job]:
     # -- relocation gating (on-site only) ---------------------------------
     signals = [s for s in profile.relocation_signals if s in hay]
     job.relocation_signals = signals
-    if on_site_target and profile.require_relocation_support:
-        if _needs_sponsorship(job.country, profile.eu_eea_citizen) and not signals:
-            return None
+    if (on_site_target and profile.require_relocation_support and
+        _needs_sponsorship(job.country, profile.eu_eea_citizen) and not signals):
+        return None
 
     # -- salary vs standard-of-living floor -------------------------------
     floor = None

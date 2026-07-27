@@ -18,7 +18,6 @@ ratios are rough effective take-home rates for a single mid/senior salary.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Optional
 
 
 @dataclass(frozen=True)
@@ -72,7 +71,7 @@ EUR_PER_UNIT: dict[str, float] = {
 }
 
 
-def to_eur(amount: float, currency: str) -> Optional[float]:
+def to_eur(amount: float, currency: str) -> float | None:
     rate = EUR_PER_UNIT.get(currency.upper())
     if rate is None:
         return None
@@ -92,7 +91,7 @@ def annualise(amount: float, period: str) -> float:
     return amount
 
 
-def col_index_for(country: str, city: Optional[str]) -> float:
+def col_index_for(country: str, city: str | None) -> float:
     if city:
         idx = CITY_COL_INDEX.get(city.strip().lower())
         if idx is not None:
@@ -107,10 +106,10 @@ def portugal_net(current_gross: float) -> float:
 
 def required_gross_eur(
     country: str,
-    city: Optional[str],
+    city: str | None,
     current_gross_pt: float,
     margin: float = 1.0,
-) -> Optional[float]:
+) -> float | None:
     """Annual gross, in EUR, needed in `country` to match the PT lifestyle."""
     econ = COUNTRIES.get(country.upper())
     if not econ:
@@ -123,10 +122,10 @@ def required_gross_eur(
 
 def required_gross_local(
     country: str,
-    city: Optional[str],
+    city: str | None,
     current_gross_pt: float,
     margin: float = 1.0,
-) -> Optional[tuple[float, str]]:
+) -> tuple[float, str] | None:
     """Annual gross floor expressed in the country's local currency."""
     econ = COUNTRIES.get(country.upper())
     gross_eur = required_gross_eur(country, city, current_gross_pt, margin)

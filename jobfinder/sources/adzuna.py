@@ -10,7 +10,7 @@ import logging
 import os
 
 from ..models import Job, strip_html
-from .base import resolve_country, Source
+from .base import Source, resolve_country
 
 log = logging.getLogger(__name__)
 

@@ -7,7 +7,7 @@ points to remoteok.com and the dashboard credits the source).
 from __future__ import annotations
 
 from ..models import Job, strip_html
-from .base import resolve_country, Source
+from .base import Source, resolve_country
 
 API = "https://remoteok.com/api"
 

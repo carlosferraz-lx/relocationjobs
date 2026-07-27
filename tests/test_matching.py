@@ -3,8 +3,15 @@ from jobfinder.models import Job
 
 
 def mk(**kw) -> Job:
-    base = dict(source="test", external_id="1", title="QA Engineer",
-                company="Acme", url="http://x", description="", country="SE")
+    base = {
+        "source": "test",
+        "external_id": "1",
+        "title": "QA Engineer",
+        "company": "Acme",
+        "url": "http://x",
+        "description": "",
+        "country": "SE",
+    }
     base.update(kw)
     return Job(**base)
 

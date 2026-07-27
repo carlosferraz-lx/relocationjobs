@@ -4,15 +4,15 @@ from __future__ import annotations
 
 import hashlib
 import re
-from dataclasses import dataclass, field, asdict
-from datetime import date
-from typing import Any, Optional
+from dataclasses import asdict, dataclass, field
+from datetime import datetime, timezone
+from typing import Any
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
 
 
-def strip_html(text: Optional[str]) -> str:
+def strip_html(text: str | None) -> str:
     """Turn an HTML fragment into plain, collapsed text."""
     if not text:
         return ""
@@ -38,24 +38,24 @@ class Job:
     company: str
     url: str
     description: str = ""
-    country: Optional[str] = None          # ISO alpha-2, best effort
-    city: Optional[str] = None
+    country: str | None = None          # ISO alpha-2, best effort
+    city: str | None = None
     remote: bool = False
     tags: list[str] = field(default_factory=list)
-    posted: Optional[str] = None           # ISO date string
+    posted: str | None = None           # ISO date string
 
     # Salary as advertised (may be missing).
-    salary_min: Optional[float] = None
-    salary_max: Optional[float] = None
-    salary_currency: Optional[str] = None
+    salary_min: float | None = None
+    salary_max: float | None = None
+    salary_currency: str | None = None
     salary_period: str = "year"            # "year" | "month" | "hour"
 
     # Filled in by the matcher.
     score: float = 0.0
     matched_skills: list[str] = field(default_factory=list)
     relocation_signals: list[str] = field(default_factory=list)
-    salary_eur_year: Optional[float] = None      # normalised annual gross in EUR
-    salary_floor_eur: Optional[float] = None      # required floor for its country
+    salary_eur_year: float | None = None      # normalised annual gross in EUR
+    salary_floor_eur: float | None = None      # required floor for its country
     salary_status: str = "unknown"                # unknown | above | below
 
     @property
@@ -78,4 +78,4 @@ class Job:
 
 
 def today_iso() -> str:
-    return date.today().isoformat()
+    return datetime.now(timezone.utc).date().isoformat()

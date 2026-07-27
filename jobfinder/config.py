@@ -53,7 +53,7 @@ class Profile:
     results_per_source: int
 
     @classmethod
-    def load(cls, path: Path | str | None = None) -> "Profile":
+    def load(cls, path: Path | str | None = None) -> Profile:
         path = Path(path) if path else DEFAULT_PROFILE
         with open(path, "r", encoding="utf-8") as fh:
             raw = yaml.safe_load(fh) or {}

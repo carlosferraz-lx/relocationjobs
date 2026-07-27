@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import logging
 import time
-from typing import Any, Optional
+from typing import Any
 
 import requests
 
@@ -45,7 +45,7 @@ CITY_COUNTRY: dict[str, str] = {
 }
 
 
-def resolve_country(text: Optional[str]) -> Optional[str]:
+def resolve_country(text: str | None) -> str | None:
     """Best-effort ISO alpha-2 from a free-form location string."""
     if not text:
         return None
@@ -72,8 +72,8 @@ class Source:
 
     # -- helpers -----------------------------------------------------------
     def _get(self, url: str, *, params: dict[str, Any] | None = None,
-             timeout: int = 25, retries: int = 3) -> Optional[requests.Response]:
-        last_exc: Optional[Exception] = None
+             timeout: int = 25, retries: int = 3) -> requests.Response | None:
+        last_exc: Exception | None = None
         for attempt in range(1, retries + 1):
             try:
                 resp = self.session.get(url, params=params, timeout=timeout)
@@ -97,6 +97,6 @@ class Source:
             jobs = self.fetch()
             log.info("[%s] fetched %d jobs", self.name, len(jobs))
             return jobs
-        except Exception as exc:  # noqa: BLE001
-            log.exception("[%s] fetch crashed: %s", self.name, exc)
+        except Exception:
+            log.exception("[%s] fetch crashed", self.name)
             return []

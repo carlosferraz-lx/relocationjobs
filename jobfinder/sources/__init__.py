@@ -3,9 +3,9 @@
 from __future__ import annotations
 
 from ..config import Profile
-from .base import Source
-from .arbeitnow import Arbeitnow
 from .adzuna import Adzuna
+from .arbeitnow import Arbeitnow
+from .base import Source
 from .himalayas import Himalayas
 from .landingjobs import LandingJobs
 from .nav import Nav
