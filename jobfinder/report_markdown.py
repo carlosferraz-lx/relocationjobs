@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 from .config import Profile
@@ -13,8 +13,18 @@ REPORT = Path(__file__).resolve().parent.parent / "REPORT.md"
 COUNTRY_NAMES = {code: econ.name for code, econ in COUNTRIES.items()}
 
 
-def _fmt_int(n: float | int | None) -> str:
+def _fmt_int(n: float | None) -> str:
     return f"{int(n):,}" if n is not None else ""
+
+
+def _posted_key(job: Job) -> date:
+    """Sort key for posted dates; missing dates sink to the bottom."""
+    if not job.posted:
+        return date.min
+    try:
+        return date.fromisoformat(job.posted[:10])
+    except (ValueError, TypeError):
+        return date.min
 
 
 def _salary_cell(job: Job) -> str:
@@ -79,9 +89,11 @@ def write_report(
         "",
         f"_Updated {now} · {len(new_jobs)} new · {len(all_matches)} active matches_",
         "",
-        f"Baseline: **{_fmt_int(profile.current_gross_salary)} "
-        f"{profile.current_currency}/yr** in {profile.current_country}. "
-        "A ✅ marks pay that meets the standard-of-living floor.",
+        (
+            f"Baseline: **{_fmt_int(profile.current_gross_salary)} "
+            f"{profile.current_currency}/yr** in {profile.current_country}. "
+            "A ✅ marks pay that meets the standard-of-living floor."
+        ),
         "",
         "## Standard-of-living salary floor",
         "",
@@ -93,7 +105,7 @@ def write_report(
 
     if new_jobs:
         lines.append(_HEADER)
-        lines += [_job_row(j) for j in new_jobs]
+        lines += [_job_row(j) for j in sorted(new_jobs, key=_posted_key, reverse=True)]
     else:
         lines.append("_No new roles today._")
 
@@ -106,7 +118,7 @@ def write_report(
         lines.append(f"### {COUNTRY_NAMES.get(code, code)} ({len(group)})")
         lines.append("")
         lines.append(_HEADER)
-        lines += [_job_row(j) for j in group]
+        lines += [_job_row(j) for j in sorted(group, key=_posted_key, reverse=True)]
         lines.append("")
 
     REPORT.write_text("\n".join(lines).rstrip() + "\n", "utf-8")

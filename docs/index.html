@@ -136,11 +136,23 @@ function render() {
     return true;
   });
 
+  function sortValue(row, key) {
+    const v = row[key];
+    if (v == null) return { isNull: true };
+    if (key === "posted") {
+      const ts = new Date(v).getTime();
+      return Number.isFinite(ts) ? { val: ts } : { isNull: true };
+    }
+    return { val: v };
+  }
+
   rows.sort((a, b) => {
-    let av = a[sortKey], bv = b[sortKey];
-    if (av == null) av = -Infinity; if (bv == null) bv = -Infinity;
-    if (typeof av === "string") return sortDir * av.localeCompare(bv);
-    return sortDir * (av - bv);
+    const av = sortValue(a, sortKey), bv = sortValue(b, sortKey);
+    if (av.isNull && bv.isNull) return 0;
+    if (av.isNull) return 1;      // null dates sink to the bottom
+    if (bv.isNull) return -1;
+    if (typeof av.val === "string" && typeof bv.val === "string") return sortDir * av.val.localeCompare(bv.val);
+    return sortDir * (av.val - bv.val);
   });
 
   const tbody = document.getElementById("rows");
