@@ -1,6 +1,6 @@
 # QA Relocation Job Digest
 
-_Updated 2026-07-29 08:51 UTC · 2 new · 113 active matches_
+_Updated 2026-07-30 08:41 UTC · 1 new · 113 active matches_
 
 Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-living floor.
 
@@ -19,21 +19,22 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
-| 10 | [QA/QC Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31299616)<br><sub>Gemkom Engineering and Machinery Filial · </sub> | Boden, Sweden | platsbanken | _not stated_ | — | 2026-07-28T13:07:40 |
-| 10 | [Product Quality Assurance/Control](https://arbetsformedlingen.se/platsbanken/annonser/31300282)<br><sub>Siemens Energy AB · </sub> | Finspång, Sweden | platsbanken | _not stated_ | — | 2026-07-28T13:50:09 |
+| 10 | [Quality Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/b72688b0-f877-494b-a07a-42ef06ad61aa)<br><sub>EIDEL AS · </sub> | Lillestrøm, Norway | nav | _not stated_ | — | 2026-07-30 |
 
 ## All active matches
 
-### Norway (13)
+### Norway (15)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
+| 10 | [Quality Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/b72688b0-f877-494b-a07a-42ef06ad61aa)<br><sub>EIDEL AS · </sub> | Lillestrøm, Norway | nav | _not stated_ | — | 2026-07-30 |
 | 10 | [HW Test Engineer – New Product Development](https://arbeidsplassen.nav.no/stillinger/stilling/1b42718a-dd92-4e71-a6f5-8f586d670cb6)<br><sub>AUTOSTORE SYSTEM AB · </sub> | Nedre Vats, Norway | nav | _not stated_ | — | 2026-07-29 |
 | 10 | [Quality Assurance Associate](https://arbeidsplassen.nav.no/stillinger/stilling/7229873c-17c7-4a09-bde2-b54b2a0cfb39)<br><sub>AQUABYTE AS · </sub> | Laksevåg, Norway | nav | _not stated_ | — | 2026-07-28 |
 | 9 | [Quality Assurance Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/4d0b52d6-675d-4d11-8492-cb48e87465f1)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD ASKER · </sub> | Asker, Norway | nav | _not stated_ | — | 2026-07-20 |
 | 9 | [Hardware Test Engineer/Technician  - Testingeniør/tekniker – Assembly & Test, Carpus](https://arbeidsplassen.nav.no/stillinger/stilling/821cf2c5-51c6-453e-806e-3eeb2d28c626)<br><sub>KONGSBERG GRUPPEN ASA · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-07-20 |
 | 9 | [Graduate 2027: Automation Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/63fdaa06-2430-4ae3-a346-9b4fcf5ee17b)<br><sub>AKER BP ASA AVD TRONDHEIM · </sub> | Trondheim, Norway | nav | _not stated_ | — | 2026-07-15 |
 | 11 | [Test Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/ad252f2a-c51b-4f12-84a4-89bf84f6cdb1)<br><sub>EIDEL AS · python</sub> | Eidsvoll, Norway | nav | _not stated_ | — | 2026-07-14 |
+| 9 | [Quality Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/a914bf85-efff-4ba1-b3bc-c4c110ac05c6)<br><sub>VIANODE AS AVD PORSGRUNN · </sub> | Porsgrunn, Norway | nav | _not stated_ | — | 2026-07-13 |
 | 9 | [Software QA](https://arbeidsplassen.nav.no/stillinger/stilling/f5614f81-01ff-4fed-b91b-112a605bf753)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-07-07 |
 | 9 | [Team Manager Quality Assurance - Strategic Production](https://arbeidsplassen.nav.no/stillinger/stilling/611b4cf3-bf30-4862-9b5d-8b9a990fe042)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-07-07 |
 | 9 | [Manufacturing Test Engineering Manager](https://arbeidsplassen.nav.no/stillinger/stilling/9e292b8f-211c-41de-b8c5-131e6601cb45)<br><sub>ELTEK NORWAY AS · </sub> | Drammen, Norway | nav | _not stated_ | — | 2026-07-07 |
@@ -42,7 +43,7 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 8 | [QA Engineers](https://arbeidsplassen.nav.no/stillinger/stilling/9ec065b3-469c-43ca-ab9e-e89a9c3dc0fa)<br><sub>NAMMO RAUFOSS AS · </sub> | Raufoss, Norway | nav | _not stated_ | — | 2026-05-19 |
 | 8 | [Loop Test Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/c685d5f1-cdf5-492f-8576-9675f135d8b6)<br><sub>EURORESSURS AS AVD SANDNES · </sub> | Sandnes, Norway | nav | _not stated_ | — | 2025-09-18 |
 
-### Sweden (100)
+### Sweden (98)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
@@ -54,8 +55,8 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 10 | [Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31295522)<br><sub>Air Employment Services Sweden Filial · </sub> | Boden, Sweden | platsbanken | _not stated_ | — | 2026-07-27T07:36:30 |
 | 7 | [Teknisk testare / QA-specialist - Stockholm](https://arbetsformedlingen.se/platsbanken/annonser/31296579)<br><sub>Lynqa AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-27T11:02:28 |
 | 16 | [Test Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31294357)<br><sub>Torque Engineering AB · test automation, automation framework, ci/cd</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-26T13:47:45 |
-| 20 | [Test Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31288099)<br><sub>Alten Sverige Aktiebolag · test automation, automation framework, ci/cd, jenkins, docker</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-22T11:09:45 |
-| 20 | [Entry Level: Software Developer - Test Automation](https://arbetsformedlingen.se/platsbanken/annonser/31288791)<br><sub>ERICSSON AB · test automation, automation framework, ci/cd, python, java</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-22T14:25:02 |
+| 19 | [Test Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31288099)<br><sub>Alten Sverige Aktiebolag · test automation, automation framework, ci/cd, jenkins, docker</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-22T11:09:45 |
+| 19 | [Entry Level: Software Developer - Test Automation](https://arbetsformedlingen.se/platsbanken/annonser/31288791)<br><sub>ERICSSON AB · test automation, automation framework, ci/cd, python, java</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-22T14:25:02 |
 | 19 | [Software Test Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31284431)<br><sub>AXIS COMMUNICATIONS AKTIEBOLAG · test automation, automation framework, ci/cd, jenkins, python</sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-07-20T15:32:00 |
 | 9 | [Rotating Equipment Field and Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31284453)<br><sub>Northern Partners AB · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-07-20T15:39:10 |
 | 9 | [Software Developer in Test (SDET)](https://arbetsformedlingen.se/platsbanken/annonser/31281048)<br><sub>Lynqa AB · ci/cd, java</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-07-19T12:06:21 |
@@ -110,11 +111,9 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 7 | [Mjukvaruutvecklare & Testingenjörer  ALTEN](https://arbetsformedlingen.se/platsbanken/annonser/31239100)<br><sub>Alten Sverige Aktiebolag · ci/cd</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-02T10:18:15 |
 | 14 | [System Test Engineer  18458](https://arbetsformedlingen.se/platsbanken/annonser/31236051)<br><sub>Veritaz AB · test automation, python</sub> | Sweden | platsbanken | _not stated_ | — | 2026-07-01T13:29:20 |
 | 11 | [Testingenjör – inbyggda system inom fordonsbranchen](https://arbetsformedlingen.se/platsbanken/annonser/31233820)<br><sub>Wrknest AB · python</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-07-01T08:52:07 |
-| 9 | [Senior Quality Assurance Technician](https://arbetsformedlingen.se/platsbanken/annonser/31235762)<br><sub>SAAB AKTIEBOLAG · </sub> | Järfälla, Sweden | platsbanken | _not stated_ | — | 2026-07-01T12:39:47 |
 | 11 | [Software Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31233014)<br><sub>Celsus Engineering AB · python</sub> | Sweden | platsbanken | _not stated_ | — | 2026-06-30T20:20:15 |
 | 9 | [Senior Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31232626)<br><sub>Lyten AB · </sub> | Sundsvall, Sweden | platsbanken | _not stated_ | — | 2026-06-30T16:23:00 |
-| 28 | [QA Engineer / Test Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31225508)<br><sub>Get A Qlue AB · selenium, playwright, cypress, rest assured, postman</sub> | Malmö, Sweden | platsbanken | _not stated_ | — | 2026-06-29T10:52:45 |
-| 9 | [Quality engineer](https://arbetsformedlingen.se/platsbanken/annonser/31228722)<br><sub>New Terms AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-06-29T20:58:25 |
+| 8 | [Quality engineer](https://arbetsformedlingen.se/platsbanken/annonser/31228722)<br><sub>New Terms AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-06-29T20:58:25 |
 | 8 | [SQE, Supplier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31206991)<br><sub>Rototilt Group AB · </sub> | Vindeln, Sweden | platsbanken | _not stated_ | — | 2026-06-23T14:25:21 |
 | 12 | [System Test Engineer  Automotive](https://arbetsformedlingen.se/platsbanken/annonser/31199220)<br><sub>Bertrandt Sverige AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | 🛂 yes | 2026-06-22T10:22:50 |
 | 8 | [Senior QA Manager Validation & Quality](https://arbetsformedlingen.se/platsbanken/annonser/31193190)<br><sub>SallyQ AB · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-06-18T10:51:47 |
