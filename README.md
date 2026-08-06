@@ -16,12 +16,13 @@ Results are delivered two ways, no email/servers/secrets required:
 
 ```
  sources ─▶ normalise ─▶ match (skills + relocation + country + salary) ─▶ dedupe
-        ─▶ diff against seen_jobs.json ─▶ REPORT.md + docs/data.json ─▶ commit / Pages
+        ─▶ diff against seen_jobs.json ─▶ REPORT.md + docs/data.json ─▶ commit / gh-pages
 ```
 
 A scheduled GitHub Actions workflow (`.github/workflows/daily.yml`) runs the
 pipeline every morning, remembers what it has already shown you, commits the
-refreshed `REPORT.md`, and redeploys the dashboard with new roles flagged **NEW**.
+refreshed `REPORT.md`, and pushes the dashboard to the `gh-pages` branch.
+New roles are flagged **NEW**.
 
 ## Job sources (all free)
 
@@ -109,8 +110,14 @@ before running.
 
 ## The dashboard
 
-The daily workflow enables Pages automatically (via `actions/configure-pages`).
-After the first successful `Daily job finder` run, the dashboard is live at
+The daily workflow pushes the built dashboard to the `gh-pages` branch using
+`peaceiris/actions-gh-pages`. To make the site live:
+
+1. Go to **Settings → Pages → Build and deployment**.
+2. Under **Source**, choose **Deploy from a branch** → **`gh-pages`** → **`/(root)`**.
+3. Save.
+
+The dashboard is then live at
 `https://<your-user>.github.io/relocationjobs/`. Pages needs a **public repo**
 or **GitHub Pro** — on a free private repo, use `REPORT.md` instead (it's always
 produced regardless).
