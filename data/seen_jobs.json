@@ -1,6 +1,6 @@
 {
  "updated": "2026-08-06",
- "count": 172,
+ "count": 173,
  "seen": {
   "c8b245d66cb9a212": {
    "title": "QA Engineer / Test Automation Engineer",
@@ -1031,6 +1031,12 @@
   "040443b89250be7e": {
    "title": "Quality Engineer - Be part of improving quality for the many people",
    "company": "IKEA Industry Älmhult AB",
+   "country": "SE",
+   "first_seen": "2026-08-06"
+  },
+  "a70013408c4058db": {
+   "title": "Teamleader Helpdesk – Customer Quality Assurance till Kinnarps",
+   "company": "OnePartnerGroup Jönköping AB",
    "country": "SE",
    "first_seen": "2026-08-06"
   }
