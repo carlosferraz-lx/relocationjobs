@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T14:06:47+00:00",
+ "generated_at": "2026-08-06T14:11:13+00:00",
  "candidate": "Carlos Ferraz",
  "baseline": {
   "country": "PT",
@@ -73,7 +73,7 @@
  ],
  "counts": {
   "new": 0,
-  "total": 144
+  "total": 143
  },
  "jobs": [
   {
@@ -3472,29 +3472,6 @@
    "city": "Sandnes",
    "remote": false,
    "posted": "2025-09-18",
-   "score": 8.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 84857,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": "NOK",
-   "is_new": false
-  },
-  {
-   "uid": "7079b105b8020eff",
-   "title": "Software- / Systemtester",
-   "company": "KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c78af30d-0a9b-4cc2-9104-8e604c1a453b",
-   "source": "nav",
-   "country": "NO",
-   "country_name": "Norway",
-   "city": "Kongsberg",
-   "remote": false,
-   "posted": "2026-06-30",
    "score": 8.0,
    "matched_skills": [],
    "relocation": false,
