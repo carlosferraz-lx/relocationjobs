@@ -112,3 +112,12 @@ After the first successful `Daily job finder` run, the dashboard is live at
 `https://<your-user>.github.io/relocationjobs/`. Pages needs a **public repo**
 or **GitHub Pro** — on a free private repo, use `REPORT.md` instead (it's always
 produced regardless).
+
+### Manual run
+
+The dashboard has a **Run search now** button that dispatches the same
+`daily.yml` workflow used by the cron job. It needs a GitHub token with
+`Actions: write` permission (fine-grained PAT) or `repo` / `public_repo` scope
+(classic PAT). The token is only stored in browser `sessionStorage` while the
+tab is open. If you prefer, you can still trigger the workflow manually from the
+Actions tab (`workflow_dispatch` is already enabled).
