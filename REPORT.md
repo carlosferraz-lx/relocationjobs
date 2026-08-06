@@ -1,6 +1,6 @@
 # QA Relocation Job Digest
 
-_Updated 2026-08-06 14:11 UTC · 0 new · 143 active matches_
+_Updated 2026-08-06 14:19 UTC · 0 new · 144 active matches_
 
 Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-living floor.
 
@@ -86,7 +86,7 @@ _No new roles today._
 | 9 | [QA Officer B](https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Weesp/QA-Officer-B_31156692?utm_source=freehire.me)<br><sub>Abbott · </sub> | Weesp, Netherlands | freehire | _not stated_ | — | 2026-07-24 |
 | 9 | [QA Specialist II Deviations and Front-Line Support](https://gilead.wd1.myworkdayjobs.com/kitepharmacareers/job/Netherlands---Hoofddorp/QA-Specialist-II-Deviations-and-Front-Line-Support_R0052887-1?utm_source=freehire.me)<br><sub>gilead · </sub> | Hoofddorp, Netherlands | freehire | _not stated_ | — | 2026-07-21 |
 
-### Norway (13)
+### Norway (14)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
@@ -101,6 +101,7 @@ _No new roles today._
 | 9 | [Graduate 2027: Automation Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/63fdaa06-2430-4ae3-a346-9b4fcf5ee17b)<br><sub>AKER BP ASA AVD TRONDHEIM · </sub> | Trondheim, Norway | nav | _not stated_ | — | 2026-07-15 |
 | 9 | [Software QA](https://arbeidsplassen.nav.no/stillinger/stilling/f5614f81-01ff-4fed-b91b-112a605bf753)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-07-07 |
 | 9 | [Team Manager Quality Assurance - Strategic Production](https://arbeidsplassen.nav.no/stillinger/stilling/611b4cf3-bf30-4862-9b5d-8b9a990fe042)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-07-07 |
+| 8 | [Software- / Systemtester](https://arbeidsplassen.nav.no/stillinger/stilling/c78af30d-0a9b-4cc2-9104-8e604c1a453b)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-06-30 |
 | 8 | [QA Engineers](https://arbeidsplassen.nav.no/stillinger/stilling/9ec065b3-469c-43ca-ab9e-e89a9c3dc0fa)<br><sub>NAMMO RAUFOSS AS · </sub> | Raufoss, Norway | nav | _not stated_ | — | 2026-05-19 |
 | 8 | [Loop Test Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/c685d5f1-cdf5-492f-8576-9675f135d8b6)<br><sub>EURORESSURS AS AVD SANDNES · </sub> | Sandnes, Norway | nav | _not stated_ | — | 2025-09-18 |
 
