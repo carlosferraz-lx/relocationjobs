@@ -5,20 +5,17 @@ on:
     - cron: "0 6 * * *"        # every day at 06:00 UTC
   workflow_dispatch: {}          # allow manual runs from the Actions tab
 
-# Commit the refreshed digest + state, and deploy the dashboard to Pages.
+# Commit the refreshed digest + state, and push the dashboard to gh-pages.
 permissions:
   contents: write
-  pages: write
-  id-token: write
-  actions: read
 
 concurrency:
   group: daily-job-finder
   cancel-in-progress: true
 
 jobs:
-  build:
-    name: Fetch and build dashboard
+  find-jobs:
+    name: Fetch, update digest, and publish dashboard
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -50,31 +47,9 @@ jobs:
             git push
           fi
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v6
+      - name: Publish dashboard to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          enablement: true
-
-      - name: Upload dashboard artifact
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: docs
-
-  deploy:
-    name: Deploy to GitHub Pages
-    needs: build
-    runs-on: ubuntu-latest
-    timeout-minutes: 12
-    environment:
-      name: github-pages
-      url: ${{ fromJSON(steps.deploy.outputs.outputs).page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deploy
-        uses: Wandalen/wretry.action@v3.8.0
-        with:
-          action: actions/deploy-pages@v5
-          with: |
-            timeout: 180000
-          attempt_limit: 3
-          attempt_delay: 20000
+          github_token: ${{ github.token }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
