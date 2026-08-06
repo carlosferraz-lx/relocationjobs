@@ -105,6 +105,9 @@ relocation:
 # Countries you'd relocate to (ISO-3166 alpha-2). UK == GB.
 target_countries:
   - "GB"   # United Kingdom
+  - "NL"   # Netherlands
+  - "BE"   # Belgium
+  - "CA"   # Canada
   - "NO"   # Norway
   - "SE"   # Sweden
   - "IS"   # Iceland

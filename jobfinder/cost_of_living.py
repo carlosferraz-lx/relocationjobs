@@ -34,6 +34,9 @@ class CountryEconomics:
 COUNTRIES: dict[str, CountryEconomics] = {
     "PT": CountryEconomics("Portugal", "EUR", 100.0, 0.66),
     "GB": CountryEconomics("United Kingdom", "GBP", 168.0, 0.68),
+    "NL": CountryEconomics("Netherlands", "EUR", 128.0, 0.65),
+    "BE": CountryEconomics("Belgium", "EUR", 122.0, 0.62),
+    "CA": CountryEconomics("Canada", "CAD", 130.0, 0.70),
     "NO": CountryEconomics("Norway", "NOK", 150.0, 0.70),
     "SE": CountryEconomics("Sweden", "SEK", 118.0, 0.69),
     "IS": CountryEconomics("Iceland", "ISK", 165.0, 0.68),
@@ -57,6 +60,20 @@ CITY_COL_INDEX: dict[str, float] = {
     "aarhus": 128.0,
     "helsinki": 122.0,
     "espoo": 118.0,
+    "amsterdam": 135.0,
+    "rotterdam": 120.0,
+    "the hague": 122.0,
+    "utrecht": 115.0,
+    "brussels": 125.0,
+    "brugge": 110.0,
+    "antwerp": 120.0,
+    "ghent": 115.0,
+    "toronto": 145.0,
+    "vancouver": 150.0,
+    "montreal": 125.0,
+    "ottawa": 120.0,
+    "calgary": 120.0,
+    "edmonton": 118.0,
 }
 
 # Approximate EUR value of one unit of each currency. Editable; refresh anytime.
@@ -68,6 +85,7 @@ EUR_PER_UNIT: dict[str, float] = {
     "DKK": 0.134,
     "ISK": 0.0066,
     "USD": 0.92,
+    "CAD": 0.65,
 }
 
 

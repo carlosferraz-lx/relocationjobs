@@ -16,7 +16,7 @@ log = logging.getLogger(__name__)
 
 API = "https://api.adzuna.com/v1/api/jobs/{country}/search/1"
 # Adzuna coverage intersected with the target countries.
-ADZUNA_COUNTRIES = {"GB": "gb"}
+ADZUNA_COUNTRIES = {"GB": "gb", "NL": "nl", "BE": "be", "CA": "ca"}
 QUERIES = ["qa engineer", "test automation", "sdet", "quality assurance"]
 
 

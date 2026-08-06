@@ -29,7 +29,10 @@ COUNTRY_WORDS: dict[str, str] = {
     "denmark": "DK", "danmark": "DK",
     "finland": "FI", "suomi": "FI",
     "portugal": "PT",
-    "germany": "DE", "netherlands": "NL", "ireland": "IE",
+    "germany": "DE", "netherlands": "NL", "nederland": "NL",
+    "belgium": "BE", "belgië": "BE", "belgique": "BE",
+    "ireland": "IE",
+    "canada": "CA",
 }
 
 # Major cities -> country, to resolve location strings that omit the country.
@@ -42,6 +45,13 @@ CITY_COUNTRY: dict[str, str] = {
     "reykjavik": "IS", "reykjavík": "IS",
     "copenhagen": "DK", "københavn": "DK", "aarhus": "DK", "odense": "DK",
     "helsinki": "FI", "espoo": "FI", "tampere": "FI", "oulu": "FI",
+    "amsterdam": "NL", "rotterdam": "NL", "the hague": "NL",
+    "den haag": "NL", "utrecht": "NL", "eindhoven": "NL",
+    "brussels": "BE", "brussel": "BE", "bruxelles": "BE",
+    "antwerp": "BE", "antwerpen": "BE", "ghent": "BE",
+    "gent": "BE", "bruges": "BE", "brugge": "BE",
+    "toronto": "CA", "vancouver": "CA", "montreal": "CA",
+    "ottawa": "CA", "calgary": "CA", "edmonton": "CA",
 }
 
 
