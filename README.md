@@ -34,6 +34,8 @@ refreshed `REPORT.md`, and redeploys the dashboard with new roles flagged **NEW*
 | Remote OK | Remote (target-country only) | sometimes | no |
 | Himalayas | Remote (target-country only) | often | no |
 | **Adzuna** | **UK** + more, rich salary data | **yes** | **free key** |
+| freehire.me | Global tech aggregator (many ATS platforms) | sometimes | no |
+| EURES | European Job Mobility Portal (EU/EEA) | rare | no |
 
 > Sweden and Norway have excellent official APIs, so coverage there is deep.
 > Denmark, Finland and Iceland have no comparable free API, so those come from
