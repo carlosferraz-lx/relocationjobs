@@ -89,24 +89,31 @@ class Source:
         })
 
     # -- helpers -----------------------------------------------------------
-    def _get(self, url: str, *, params: dict[str, Any] | None = None,
-             timeout: int = 25, retries: int = 3) -> requests.Response | None:
+    def _request(self, method: str, url: str, **kwargs) -> requests.Response | None:
         last_exc: Exception | None = None
-        for attempt in range(1, retries + 1):
+        for attempt in range(1, 4):
             try:
-                resp = self.session.get(url, params=params, timeout=timeout)
+                resp = self.session.request(method, url, **kwargs)
                 resp.raise_for_status()
                 return resp
             except Exception as exc:  # noqa: BLE001 - network layer
                 last_exc = exc
-                log.warning("[%s] GET %s failed (attempt %d/%d): %s",
-                            self.name, url, attempt, retries, exc)
+                log.warning("[%s] %s %s failed (attempt %d/3): %s",
+                            self.name, method, url, attempt, exc)
                 if hasattr(exc, "response") and exc.response is not None:
                     body = (exc.response.text or "")[:400]
                     log.debug("[%s] response body: %s", self.name, body)
                 time.sleep(min(2 ** attempt, 8))
         log.error("[%s] giving up on %s: %s", self.name, url, last_exc)
         return None
+
+    def _get(self, url: str, *, params: dict[str, Any] | None = None,
+             timeout: int = 25) -> requests.Response | None:
+        return self._request("GET", url, params=params, timeout=timeout)
+
+    def _post(self, url: str, *, json: Any | None = None,
+              timeout: int = 30) -> requests.Response | None:
+        return self._request("POST", url, json=json, timeout=timeout)
 
     # -- API ---------------------------------------------------------------
     def fetch(self) -> list[Job]:  # pragma: no cover - abstract

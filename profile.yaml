@@ -137,6 +137,8 @@ sources:
   remoteok: true       # remote board
   himalayas: true      # remote board
   adzuna: true         # UK + more, richer salary data (needs free API key; see README)
+  freehire: true       # global tech aggregator (public, no key)
+  eures: true          # European Job Mobility Portal (EU/EEA public API)
 
 # How many results to request per query from each source.
 results_per_source: 100

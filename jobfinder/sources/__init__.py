@@ -6,6 +6,8 @@ from ..config import Profile
 from .adzuna import Adzuna
 from .arbeitnow import Arbeitnow
 from .base import Source
+from .eures import EURES
+from .freehire import FreeHire
 from .himalayas import Himalayas
 from .landingjobs import LandingJobs
 from .nav import Nav
@@ -20,6 +22,8 @@ _ALL: dict[str, type[Source]] = {
     "remoteok": RemoteOK,
     "himalayas": Himalayas,
     "adzuna": Adzuna,
+    "freehire": FreeHire,
+    "eures": EURES,
 }
 
 
