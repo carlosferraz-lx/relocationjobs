@@ -5,6 +5,7 @@ Rich fields: relocation_paid flag, gross salary range, currency and locations.
 
 from __future__ import annotations
 
+from ..config import Profile
 from ..models import Job, strip_html
 from .base import Source
 
@@ -13,6 +14,10 @@ API = "https://landing.jobs/api/v1/jobs"
 
 class LandingJobs(Source):
     name = "landingjobs"
+
+    def __init__(self, profile: Profile):
+        super().__init__(profile)
+        self.session.headers["Referer"] = "https://landing.jobs/"
 
     def fetch(self) -> list[Job]:
         resp = self._get(API, params={"limit": min(self.profile.results_per_source, 200)})

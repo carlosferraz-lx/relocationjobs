@@ -14,8 +14,9 @@ from ..models import Job
 log = logging.getLogger(__name__)
 
 USER_AGENT = (
-    "relocation-job-finder/0.1 (personal job search; "
-    "https://github.com/carlosferraz-lx/relocation-job-finder)"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/126.0.0.0 Safari/537.36"
 )
 
 # Words -> ISO alpha-2 for the countries we care about, plus a few neighbours so
@@ -77,8 +78,15 @@ class Source:
     def __init__(self, profile: Profile):
         self.profile = profile
         self.session = requests.Session()
-        self.session.headers.update({"User-Agent": USER_AGENT,
-                                     "Accept": "application/json"})
+        self.session.headers.update({
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Encoding": "gzip, deflate, br",
+            "DNT": "1",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+        })
 
     # -- helpers -----------------------------------------------------------
     def _get(self, url: str, *, params: dict[str, Any] | None = None,
@@ -93,6 +101,9 @@ class Source:
                 last_exc = exc
                 log.warning("[%s] GET %s failed (attempt %d/%d): %s",
                             self.name, url, attempt, retries, exc)
+                if hasattr(exc, "response") and exc.response is not None:
+                    body = (exc.response.text or "")[:400]
+                    log.debug("[%s] response body: %s", self.name, body)
                 time.sleep(min(2 ** attempt, 8))
         log.error("[%s] giving up on %s: %s", self.name, url, last_exc)
         return None
