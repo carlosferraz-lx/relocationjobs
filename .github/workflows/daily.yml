@@ -10,17 +10,16 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
 
 concurrency:
   group: daily-job-finder
   cancel-in-progress: true
 
 jobs:
-  find-jobs:
+  build:
+    name: Fetch and build dashboard
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
 
@@ -61,6 +60,21 @@ jobs:
         with:
           path: docs
 
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    environment:
+      name: github-pages
+      url: ${{ fromJSON(steps.deploy.outputs.outputs).page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deploy
-        uses: actions/deploy-pages@v5
+        uses: Wandalen/wretry.action@v3.8.0
+        with:
+          action: actions/deploy-pages@v5
+          with: |
+            timeout: 180000
+          attempt_limit: 3
+          attempt_delay: 20000
