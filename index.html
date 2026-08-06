@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>QA Relocation Job Finder</title>
+<style>
+  :root {
+    --bg: #0f172a; --panel: #1e293b; --panel2: #273449; --text: #e2e8f0;
+    --muted: #94a3b8; --accent: #38bdf8; --green: #22c55e; --amber: #f59e0b;
+    --red: #ef4444; --border: #334155;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         background: var(--bg); color: var(--text); }
+  header { padding: 20px 24px; border-bottom: 1px solid var(--border); }
+  h1 { margin: 0 0 4px; font-size: 20px; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .wrap { padding: 16px 24px 60px; }
+  .cards { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+          padding: 12px 16px; min-width: 120px; }
+  .card .n { font-size: 22px; font-weight: 700; }
+  .card .l { color: var(--muted); font-size: 12px; }
+  .floors { margin: 12px 0 4px; }
+  .floors h3 { font-size: 13px; color: var(--muted); font-weight: 600; margin: 0 0 8px; text-transform: uppercase; letter-spacing: .04em; }
+  .floors table { border-collapse: collapse; font-size: 13px; }
+  .floors td, .floors th { padding: 4px 12px 4px 0; text-align: left; }
+  .floors th { color: var(--muted); font-weight: 600; }
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 16px 0; }
+  input[type=search], select { background: var(--panel2); color: var(--text);
+      border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 13px; }
+  label.chk { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); }
+  table.jobs { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table.jobs th { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border);
+      color: var(--muted); font-weight: 600; cursor: pointer; user-select: none; white-space: nowrap; }
+  table.jobs td { padding: 10px; border-bottom: 1px solid var(--panel2); vertical-align: top; }
+  tr.new { background: rgba(56,189,248,.06); }
+  a.title { color: var(--accent); text-decoration: none; font-weight: 600; }
+  a.title:hover { text-decoration: underline; }
+  .tag { display: inline-block; background: var(--panel2); border: 1px solid var(--border);
+      border-radius: 999px; padding: 1px 8px; font-size: 11px; margin: 2px 4px 2px 0; color: var(--muted); }
+  .badge { display: inline-block; border-radius: 6px; padding: 1px 7px; font-size: 11px; font-weight: 600; }
+  .b-new { background: var(--accent); color: #08131f; }
+  .b-reloc { background: rgba(34,197,94,.16); color: var(--green); border: 1px solid rgba(34,197,94,.4); }
+  .b-remote { background: rgba(245,158,11,.16); color: var(--amber); border: 1px solid rgba(245,158,11,.4); }
+  .sal-above { color: var(--green); }
+  .sal-unknown { color: var(--muted); }
+  .sal-known { color: var(--text); }
+  .muted { color: var(--muted); }
+  footer { color: var(--muted); font-size: 12px; padding: 24px; text-align: center; }
+  .empty { padding: 40px; text-align: center; color: var(--muted); }
+  .run-wrap { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+  .btn { background: var(--accent); color: #08131f; border: none; border-radius: 8px;
+         padding: 8px 14px; font-size: 13px; font-weight: 600; cursor: pointer; }
+  .btn:hover { filter: brightness(1.1); }
+  .btn:disabled { opacity: .5; cursor: not-allowed; }
+  #runStatus { font-size: 13px; color: var(--muted); }
+  #runStatus a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>QA Relocation Job Finder</h1>
+  <div class="sub" id="subtitle">Loading…</div>
+  <div class="run-wrap">
+    <button id="runNow" class="btn" title="Trigger a new GitHub Actions search run">Run search now</button>
+    <span id="runStatus"></span>
+  </div>
+</header>
+<div class="wrap">
+  <div class="cards" id="cards"></div>
+  <div class="floors" id="floors"></div>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search title, company, skill…" />
+    <select id="country"><option value="">All countries</option></select>
+    <select id="source"><option value="">All sources</option></select>
+    <label class="chk"><input type="checkbox" id="newOnly" /> New only</label>
+    <label class="chk"><input type="checkbox" id="relocOnly" /> Relocation/visa only</label>
+    <label class="chk"><input type="checkbox" id="hideRemote" /> Hide remote</label>
+    <label class="chk"><input type="checkbox" id="salaryOk" /> Salary meets floor</label>
+  </div>
+
+  <table class="jobs">
+    <thead>
+      <tr>
+        <th data-k="score">Score</th>
+        <th data-k="title">Role</th>
+        <th data-k="country_name">Location</th>
+        <th data-k="source">Source</th>
+        <th data-k="salary_eur_year">Salary</th>
+        <th data-k="posted">Posted</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="empty" id="empty" style="display:none">No jobs match the current filters.</div>
+</div>
+<footer>
+  Sources: Platsbanken (SE), NAV (NO), Arbeitnow, Landing.jobs, Remote OK, Himalayas, Adzuna.
+  Salary floors are cost-of-living estimates — tune them in <code>profile.yaml</code>.
+</footer>
+
+<script>
+let DATA = { jobs: [] };
+let sortKey = "score", sortDir = -1;
+
+const fmtMoney = (n, ccy) => n == null ? "" :
+  new Intl.NumberFormat("en-GB", { maximumFractionDigits: 0 }).format(n) + (ccy ? " " + ccy : "");
+
+function salaryCell(j) {
+  if (j.salary_eur_year != null) {
+    const cls = j.salary_status === "above" ? "sal-above" : "sal-known";
+    let txt = "€" + fmtMoney(j.salary_eur_year) + "/yr";
+    if (j.salary_min || j.salary_max) {
+      const lo = j.salary_min, hi = j.salary_max;
+      const raw = (lo && hi && lo !== hi) ? `${fmtMoney(lo)}–${fmtMoney(hi)}` : fmtMoney(hi || lo);
+      txt = `${raw} ${j.salary_currency || ""}`.trim();
+    }
+    const floor = j.salary_floor_eur ? ` · floor €${fmtMoney(j.salary_floor_eur)}` : "";
+    return `<span class="${cls}">${txt}</span><span class="muted">${floor}</span>`;
+  }
+  return `<span class="sal-unknown">not stated</span>`;
+}
+
+function render() {
+  const q = document.getElementById("q").value.toLowerCase().trim();
+  const country = document.getElementById("country").value;
+  const source = document.getElementById("source").value;
+  const newOnly = document.getElementById("newOnly").checked;
+  const relocOnly = document.getElementById("relocOnly").checked;
+  const hideRemote = document.getElementById("hideRemote").checked;
+  const salaryOk = document.getElementById("salaryOk").checked;
+
+  let rows = DATA.jobs.filter(j => {
+    if (country && j.country !== country) return false;
+    if (source && j.source !== source) return false;
+    if (newOnly && !j.is_new) return false;
+    if (relocOnly && !j.relocation) return false;
+    if (hideRemote && j.remote) return false;
+    if (salaryOk && j.salary_status !== "above") return false;
+    if (q) {
+      const hay = (j.title + " " + j.company + " " + (j.matched_skills || []).join(" ")).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  function sortValue(row, key) {
+    const v = row[key];
+    if (v == null) return { isNull: true };
+    if (key === "posted") {
+      const ts = new Date(v).getTime();
+      return Number.isFinite(ts) ? { val: ts } : { isNull: true };
+    }
+    return { val: v };
+  }
+
+  rows.sort((a, b) => {
+    const av = sortValue(a, sortKey), bv = sortValue(b, sortKey);
+    if (av.isNull && bv.isNull) return 0;
+    if (av.isNull) return 1;      // null dates sink to the bottom
+    if (bv.isNull) return -1;
+    if (typeof av.val === "string" && typeof bv.val === "string") return sortDir * av.val.localeCompare(bv.val);
+    return sortDir * (av.val - bv.val);
+  });
+
+  const tbody = document.getElementById("rows");
+  tbody.innerHTML = rows.map(j => {
+    const loc = [j.city, j.country_name].filter(Boolean).join(", ") || (j.remote ? "Remote" : "—");
+    const badges = [
+      j.is_new ? `<span class="badge b-new">NEW</span>` : "",
+      j.relocation ? `<span class="badge b-reloc">relocation</span>` : "",
+      j.remote ? `<span class="badge b-remote">remote</span>` : "",
+    ].join(" ");
+    const skills = (j.matched_skills || []).slice(0, 6).map(s => `<span class="tag">${s}</span>`).join("");
+    return `<tr class="${j.is_new ? "new" : ""}">
+      <td><strong>${j.score.toFixed(1)}</strong></td>
+      <td><a class="title" href="${j.url}" target="_blank" rel="noopener">${j.title}</a>
+          <div class="muted">${j.company}</div>
+          <div>${badges}</div><div>${skills}</div></td>
+      <td>${loc}</td>
+      <td class="muted">${j.source}</td>
+      <td>${salaryCell(j)}</td>
+      <td class="muted">${j.posted || ""}</td>
+    </tr>`;
+  }).join("");
+
+  document.getElementById("empty").style.display = rows.length ? "none" : "block";
+}
+
+function populateSelect(id, values) {
+  const sel = document.getElementById(id);
+  [...new Set(values)].filter(Boolean).sort().forEach(v => {
+    const o = document.createElement("option"); o.value = v; o.textContent = v; sel.appendChild(o);
+  });
+}
+
+fetch("./data.json?_=" + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    DATA = d;
+    const when = new Date(d.generated_at).toLocaleString();
+    document.getElementById("subtitle").textContent =
+      `${d.candidate} · updated ${when} · baseline ${d.baseline.gross_salary.toLocaleString()} ${d.baseline.currency}/yr in ${d.baseline.country}`;
+
+    document.getElementById("cards").innerHTML = `
+      <div class="card"><div class="n">${d.counts.new}</div><div class="l">new today</div></div>
+      <div class="card"><div class="n">${d.counts.total}</div><div class="l">active matches</div></div>`;
+
+    document.getElementById("floors").innerHTML = `
+      <h3>Standard-of-living salary floor per country</h3>
+      <table><tr><th>Country</th><th>Gross floor (local)</th><th>≈ EUR</th></tr>
+      ${d.salary_floors.map(f => `<tr><td>${f.country_name}</td>
+        <td>${fmtMoney(f.floor_local, f.currency)}</td>
+        <td class="muted">€${fmtMoney(f.floor_eur)}</td></tr>`).join("")}
+      </table>`;
+
+    populateSelect("country", d.jobs.map(j => j.country));
+    populateSelect("source", d.jobs.map(j => j.source));
+    render();
+  })
+  .catch(() => { document.getElementById("subtitle").textContent = "Could not load data.json yet — run the finder first."; });
+
+["q", "country", "source", "newOnly", "relocOnly", "hideRemote", "salaryOk"].forEach(id => {
+  document.getElementById(id).addEventListener("input", render);
+});
+document.querySelectorAll("th[data-k]").forEach(th => {
+  th.addEventListener("click", () => {
+    const k = th.dataset.k;
+    if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = (k === "title" || k === "country_name" || k === "source") ? 1 : -1; }
+    render();
+  });
+});
+
+// Manual trigger: dispatch the daily workflow via GitHub API.
+const REPO = "carlosferraz-lx/relocationjobs";
+const WORKFLOW = "daily.yml";
+const ACTIONS_URL = `https://github.com/${REPO}/actions/workflows/${WORKFLOW}`;
+
+async function dispatchRun() {
+  const status = document.getElementById("runStatus");
+  const btn = document.getElementById("runNow");
+  let token = sessionStorage.getItem("gh_pat");
+  if (!token) {
+    token = prompt(
+      "To trigger a search from the dashboard, enter a GitHub token with " +
+      "'actions:write' permission (fine-grained) or 'repo'/'public_repo' scope (classic)."
+    );
+    if (!token) {
+      status.innerHTML = `Token needed. <a href="${ACTIONS_URL}" target="_blank" rel="noopener">Run manually on GitHub</a>`;
+      return;
+    }
+    sessionStorage.setItem("gh_pat", token);
+  }
+
+  btn.disabled = true;
+  status.textContent = "Dispatching search run…";
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`, {
+      method: "POST",
+      headers: {
+        "Accept": "application/vnd.github+json",
+        "Authorization": `Bearer ${token}`,
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ ref: "main" }),
+    });
+    if (resp.status === 204) {
+      status.innerHTML = `Search started. <a href="${ACTIONS_URL}" target="_blank" rel="noopener">View run</a>`;
+    } else {
+      const err = await resp.text();
+      status.innerHTML = `Failed (${resp.status}). <a href="${ACTIONS_URL}" target="_blank" rel="noopener">Run on GitHub</a>`;
+      console.error("GitHub dispatch failed:", resp.status, err);
+    }
+  } catch (e) {
+    status.innerHTML = `Could not dispatch. <a href="${ACTIONS_URL}" target="_blank" rel="noopener">Run on GitHub</a>`;
+    console.error(e);
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+document.getElementById("runNow").addEventListener("click", dispatchRun);
+</script>
+</body>
+</html>
