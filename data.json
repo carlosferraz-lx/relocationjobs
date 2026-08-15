@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14T07:42:19+00:00",
+ "generated_at": "2026-08-15T06:50:45+00:00",
  "candidate": "Carlos Ferraz",
  "baseline": {
   "country": "PT",
@@ -72,8 +72,8 @@
   }
  ],
  "counts": {
-  "new": 11,
-  "total": 139
+  "new": 10,
+  "total": 140
  },
  "jobs": [
   {
@@ -272,6 +272,35 @@
    "is_new": false
   },
   {
+   "uid": "7206b537873a012b",
+   "title": "QA-testare till iFACTS i Malmö",
+   "company": "A Hub AB",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31355554",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Malmö",
+   "remote": false,
+   "posted": "2026-08-14T16:01:43",
+   "score": 18.0,
+   "matched_skills": [
+    "playwright",
+    "ci/cd",
+    "github actions",
+    "python",
+    "sql"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
    "uid": "7f86007ab7d961d9",
    "title": "Test Engineer",
    "company": "Alten Sverige Aktiebolag",
@@ -415,7 +444,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "25e1276e89ed33ab",
@@ -533,34 +562,6 @@
    "is_new": false
   },
   {
-   "uid": "379f2cf73a7740c8",
-   "title": "Quality Engineer",
-   "company": "VIZRT NORWAY AS",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/00156646-1d7b-4e99-bd8d-03643bdbecbd",
-   "source": "nav",
-   "country": "NO",
-   "country_name": "Norway",
-   "city": "Bergen",
-   "remote": false,
-   "posted": "2026-08-07",
-   "score": 17.0,
-   "matched_skills": [
-    "playwright",
-    "ci/cd",
-    "kubernetes",
-    "python"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 76371,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": "NOK",
-   "is_new": false
-  },
-  {
    "uid": "b49a77ddcda6fc8d",
    "title": "Engineering Quality Lead: bygg kvalitetskultur och automation",
    "company": "Senseworks AB",
@@ -590,6 +591,33 @@
    "salary_max": null,
    "salary_currency": null,
    "is_new": false
+  },
+  {
+   "uid": "526b89da66b1d8a3",
+   "title": "QA-testare till iFACTS i Malmö",
+   "company": "A-hub",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31355554?utm_source=freehire.me",
+   "source": "freehire",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Malmö",
+   "remote": false,
+   "posted": "2026-08-14",
+   "score": 16.0,
+   "matched_skills": [
+    "playwright",
+    "python",
+    "sql"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
   },
   {
    "uid": "eb7eb5ff89d00b2e",
@@ -648,7 +676,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "1bcec090d83cc833",
@@ -812,7 +840,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "d8e7080a0e8d4530",
@@ -1293,79 +1321,31 @@
    "is_new": false
   },
   {
-   "uid": "2342586475867213",
-   "title": "QA Lead | Minecraft Blast",
-   "company": "King",
-   "url": "https://careers.king.com/us/en/job/ACMKDSUSR027884EXTERNALENUS?utm_source=freehire.me",
+   "uid": "a7e2442000b5f1a6",
+   "title": "QA Software Tester",
+   "company": "Spectrum IT Recruitment",
+   "url": "https://www.adzuna.co.uk/jobs/details/5840201332?utm_medium=api&utm_source=freehire.me",
    "source": "freehire",
-   "country": "SE",
-   "country_name": "Sweden",
-   "city": "Stockholm",
-   "remote": false,
-   "posted": "2026-08-11",
+   "country": "GB",
+   "country_name": "United Kingdom",
+   "city": "Chilworth",
+   "remote": true,
+   "posted": "2026-08-13",
    "score": 11.0,
    "matched_skills": [
-    "agile"
+    "selenium",
+    "cucumber",
+    "bdd"
    ],
    "relocation": false,
    "relocation_signals": [],
    "salary_status": "unknown",
    "salary_eur_year": null,
-   "salary_floor_eur": 70017,
+   "salary_floor_eur": 97835,
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "75f0d3c62d28f4a3",
-   "title": "QA Lead | Minecraft Blast",
-   "company": "xboxgaming",
-   "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Stockholm---King---Malmskillnadsgatan/QA-Lead---Minecraft-Blast_R027884?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "SE",
-   "country_name": "Sweden",
-   "city": "Stockholm",
-   "remote": false,
-   "posted": "2026-08-10",
-   "score": 11.0,
-   "matched_skills": [
-    "agile"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 70017,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "db397c88c731129b",
-   "title": "QA Engineer / Testspecialist till Handelsbanken",
-   "company": "Svenska Handelsbanken AB",
-   "url": "https://emp.jobylon.com/jobs/366856-svenska-handelsbanken-ab-qa-engineer-testspecialist-till-handelsbanken/?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "SE",
-   "country_name": "Sweden",
-   "city": "Stockholm",
-   "remote": false,
-   "posted": "2026-08-07",
-   "score": 11.0,
-   "matched_skills": [
-    "sql"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 70017,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
+   "is_new": true
   },
   {
    "uid": "28adfa20f72a4957",
@@ -1416,29 +1396,6 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
-  },
-  {
-   "uid": "ca433bd95e9cd85f",
-   "title": "Junior QA-testare",
-   "company": "Quest Consulting Sverige AB",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31344585",
-   "source": "platsbanken",
-   "country": "SE",
-   "country_name": "Sweden",
-   "city": "Stockholm",
-   "remote": false,
-   "posted": "2026-08-12T13:20:12",
-   "score": 10.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 70017,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
    "is_new": false
   },
   {
@@ -1462,7 +1419,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "d5399f359c341359",
@@ -1488,6 +1445,52 @@
    "salary_max": null,
    "salary_currency": null,
    "is_new": false
+  },
+  {
+   "uid": "ace7f0973353eff4",
+   "title": "Senior Test Engineer",
+   "company": "VOLVO BUSINESS SERVICES AKTIEBOLAG",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31352981",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Eskilstuna",
+   "remote": false,
+   "posted": "2026-08-14T10:59:35",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
+   "uid": "ef57658e51712e56",
+   "title": "Experienced Test Engineer",
+   "company": "VOLVO BUSINESS SERVICES AKTIEBOLAG",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31352363",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Eskilstuna",
+   "remote": false,
+   "posted": "2026-08-14T09:48:20",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
   },
   {
    "uid": "0062b28cd388f11b",
@@ -1708,7 +1711,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "532e52e2a0926939",
@@ -1757,6 +1760,29 @@
    "is_new": false
   },
   {
+   "uid": "1a3819d824e1c9ee",
+   "title": "QA Release Responsible Incoming Materials & EU Release",
+   "company": "Johnson & Johnson",
+   "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Beerse-Antwerp-Belgium/QA-Release-Responsible-Incoming-Materials---EU-Release_R-092855-1?utm_source=freehire.me",
+   "source": "freehire",
+   "country": "BE",
+   "country_name": "Belgium",
+   "city": "Antwerp",
+   "remote": false,
+   "posted": "2026-08-14",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 76645,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
    "uid": "dc3ffee803cc856b",
    "title": "QA Tester",
    "company": "JobBusters AB",
@@ -1777,7 +1803,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "718d0743ab40ed91",
@@ -1800,7 +1826,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "0c792667880bdef6",
@@ -1810,7 +1836,7 @@
    "source": "freehire",
    "country": "NL",
    "country_name": "Netherlands",
-   "city": null,
+   "city": "Olst",
    "remote": false,
    "posted": "2026-08-13",
    "score": 10.0,
@@ -1823,7 +1849,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "cf5f57cdb0d149e6",
@@ -2033,6 +2059,31 @@
    "is_new": false
   },
   {
+   "uid": "db397c88c731129b",
+   "title": "QA Engineer / Testspecialist till Handelsbanken",
+   "company": "Svenska Handelsbanken AB",
+   "url": "https://emp.jobylon.com/jobs/366856-svenska-handelsbanken-ab-qa-engineer-testspecialist-till-handelsbanken/?utm_source=freehire.me",
+   "source": "freehire",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Stockholm",
+   "remote": false,
+   "posted": "2026-08-07",
+   "score": 10.0,
+   "matched_skills": [
+    "sql"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 70017,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": false
+  },
+  {
    "uid": "71d5a5df86772480",
    "title": "QA Lead",
    "company": "Foundation Health",
@@ -2057,6 +2108,29 @@
    "salary_max": null,
    "salary_currency": null,
    "is_new": false
+  },
+  {
+   "uid": "bd9c668dc9ab3298",
+   "title": "Qualified Person - Senior QA Specialist",
+   "company": "HOUSE OF RECRUITMENT SOLUTIONS BV",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/N2NmOGQyMzQtNDkxNi00ZDIzLTg3ZGUtZjJmZDNkZDY0NTRhIDM",
+   "source": "eures",
+   "country": "BE",
+   "country_name": "Belgium",
+   "city": null,
+   "remote": false,
+   "posted": "2026-08-15",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 77923,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
   },
   {
    "uid": "eee997312c76d25f",
@@ -2527,52 +2601,6 @@
    "is_new": false
   },
   {
-   "uid": "d5887934a432fb56",
-   "title": "Quality Assurance Associate",
-   "company": "AQUABYTE AS",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7229873c-17c7-4a09-bde2-b54b2a0cfb39",
-   "source": "nav",
-   "country": "NO",
-   "country_name": "Norway",
-   "city": "Laksevåg",
-   "remote": false,
-   "posted": "2026-08-04",
-   "score": 9.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 84857,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": "NOK",
-   "is_new": false
-  },
-  {
-   "uid": "65cb85a01fb12ef2",
-   "title": "Graduate 2027: Automation Engineer",
-   "company": "AKER BP ASA AVD TRONDHEIM",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/63fdaa06-2430-4ae3-a346-9b4fcf5ee17b",
-   "source": "nav",
-   "country": "NO",
-   "country_name": "Norway",
-   "city": "Trondheim",
-   "remote": false,
-   "posted": "2026-07-15",
-   "score": 9.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 84857,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": "NOK",
-   "is_new": false
-  },
-  {
    "uid": "bbbaa22958306266",
    "title": "Hardware Test Engineer/Technician  - Testingeniør/tekniker – Assembly & Test, Carpus",
    "company": "KONGSBERG GRUPPEN ASA",
@@ -2737,16 +2765,39 @@
    "is_new": false
   },
   {
-   "uid": "7c23932642445340",
-   "title": "QA Specialist",
+   "uid": "96974a837b7a396e",
+   "title": "QA Divisie Manager",
    "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTZiMmE5ZWMtZTgyNC0zMzA5LWUwNjMtNjg5M2IyMGFkZTBkIDQy",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTcxNzNmMjEtN2IyZS1kYjY4LWUwNjMtNjg5M2IyMGE5MjljIDQy",
    "source": "eures",
    "country": "NL",
    "country_name": "Netherlands",
    "city": null,
    "remote": false,
-   "posted": "2026-07-16",
+   "posted": "2026-07-21",
+   "score": 9.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 77982,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
+   "uid": "3ed6e8d6d10fa01e",
+   "title": "QA Specialist",
+   "company": "",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTZkYWU1OWMtMGM1OS1mZDZiLWUwNjMtNjg5M2IyMGFiYTk2IDQy",
+   "source": "eures",
+   "country": "NL",
+   "country_name": "Netherlands",
+   "city": null,
+   "remote": false,
+   "posted": "2026-07-18",
    "score": 9.0,
    "matched_skills": [],
    "relocation": false,
@@ -3289,6 +3340,29 @@
    "is_new": false
   },
   {
+   "uid": "65cb85a01fb12ef2",
+   "title": "Graduate 2027: Automation Engineer",
+   "company": "AKER BP ASA AVD TRONDHEIM",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/63fdaa06-2430-4ae3-a346-9b4fcf5ee17b",
+   "source": "nav",
+   "country": "NO",
+   "country_name": "Norway",
+   "city": "Trondheim",
+   "remote": false,
+   "posted": "2026-07-15",
+   "score": 8.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 84857,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": "NOK",
+   "is_new": false
+  },
+  {
    "uid": "818a101e5d6098e3",
    "title": "Loop Test Engineer",
    "company": "EURORESSURS AS AVD SANDNES",
@@ -3385,46 +3459,23 @@
    "is_new": false
   },
   {
-   "uid": "019e0981c7b7ab7b",
-   "title": "Medewerker Quality Assurance",
-   "company": "MilAnSa Personeelsdiensten",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTQxYWQxNDctZGE5Yy03OTBhLWUwNjMtNjg5M2IyMGEyYTRmIDQy",
-   "source": "eures",
-   "country": "NL",
-   "country_name": "Netherlands",
-   "city": null,
+   "uid": "c6ab4f1e97257bb7",
+   "title": "Senior QA-specialist inom Life Science!",
+   "company": "ACADEMIC WORK SWEDEN AB",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31354820",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Lund",
    "remote": false,
-   "posted": "2026-06-13",
-   "score": 8.0,
+   "posted": "2026-08-14T14:34:22",
+   "score": 7.0,
    "matched_skills": [],
    "relocation": false,
    "relocation_signals": [],
    "salary_status": "unknown",
    "salary_eur_year": null,
-   "salary_floor_eur": 77982,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "9a2e8ec66724a651",
-   "title": "QA Engineer",
-   "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTQ3ZjY2NWQtMTFjNS0wZjQ2LWUwNjMtNjg5M2IyMGEzNTA2IDQy",
-   "source": "eures",
-   "country": "NL",
-   "country_name": "Netherlands",
-   "city": null,
-   "remote": false,
-   "posted": "2026-06-18",
-   "score": 8.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 77982,
+   "salary_floor_eur": 67722,
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
@@ -3451,31 +3502,6 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": "NOK",
-   "is_new": false
-  },
-  {
-   "uid": "57012b0e0f92035a",
-   "title": "Mjukvaruutvecklare & Testingenjörer  ALTEN",
-   "company": "Alten Sverige Aktiebolag",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31239100",
-   "source": "platsbanken",
-   "country": "SE",
-   "country_name": "Sweden",
-   "city": "Göteborg",
-   "remote": false,
-   "posted": "2026-07-02T10:18:15",
-   "score": 6.0,
-   "matched_skills": [
-    "ci/cd"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 67722,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
    "is_new": false
   },
   {
