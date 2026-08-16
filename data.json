@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-15T06:50:45+00:00",
+ "generated_at": "2026-08-16T06:51:48+00:00",
  "candidate": "Carlos Ferraz",
  "baseline": {
   "country": "PT",
@@ -72,8 +72,8 @@
   }
  ],
  "counts": {
-  "new": 10,
-  "total": 140
+  "new": 4,
+  "total": 133
  },
  "jobs": [
   {
@@ -298,7 +298,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "7f86007ab7d961d9",
@@ -617,7 +617,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "eb7eb5ff89d00b2e",
@@ -977,33 +977,6 @@
    "is_new": false
   },
   {
-   "uid": "b8f1577d67728817",
-   "title": "QA Lead / Senior Test Engineer",
-   "company": "Insta",
-   "url": "https://careers.insta.fi/jobs/8173647-qa-lead-senior-test-engineer?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "FI",
-   "country_name": "Finland",
-   "city": "Tampere",
-   "remote": false,
-   "posted": "2026-08-04",
-   "score": 14.0,
-   "matched_skills": [
-    "playwright",
-    "jenkins",
-    "agile"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 72000,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
    "uid": "39f4f02bb6c80564",
    "title": "RF Test and Automation Engineer",
    "company": "Low Noise Factory AB",
@@ -1160,90 +1133,6 @@
    "is_new": false
   },
   {
-   "uid": "1da3562bee2aed62",
-   "title": "QA Analyst (Katalon + Groovy)",
-   "company": "ShoreWise Consulting",
-   "url": "https://himalayas.app/companies/shorewise-consulting/jobs/qa-analyst-katalon-groovy-354886548?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "CA",
-   "country_name": "Canada",
-   "city": null,
-   "remote": true,
-   "posted": "2026-08-08",
-   "score": 12.0,
-   "matched_skills": [
-    "sql"
-   ],
-   "relocation": true,
-   "relocation_signals": [
-    "visa sponsorship",
-    "visa sponsor"
-   ],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 73543,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "2891551f02719df4",
-   "title": "QA & Verifications Engineer",
-   "company": "Codekeeper",
-   "url": "https://codekeeper.applytojob.com/apply/9YfP8UwFUY/QA-Verifications-Engineer?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "NL",
-   "country_name": "Netherlands",
-   "city": null,
-   "remote": true,
-   "posted": "2026-08-05",
-   "score": 12.0,
-   "matched_skills": [
-    "python",
-    "java",
-    "javascript",
-    "sql"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 77982,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "95d6083d6abadc49",
-   "title": "QA & Verifications Specialist",
-   "company": "Codekeeper",
-   "url": "https://codekeeper.applytojob.com/apply/OgBv8wZ0Ix/QA-Verifications-Specialist?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "NL",
-   "country_name": "Netherlands",
-   "city": null,
-   "remote": true,
-   "posted": "2026-08-05",
-   "score": 12.0,
-   "matched_skills": [
-    "python",
-    "java",
-    "javascript",
-    "sql"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 77982,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
    "uid": "33dd86fe89ab8f06",
    "title": "Test Engineer",
    "company": "AIMPOINT AKTIEBOLAG",
@@ -1345,7 +1234,35 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
+  },
+  {
+   "uid": "1da3562bee2aed62",
+   "title": "QA Analyst (Katalon + Groovy)",
+   "company": "ShoreWise Consulting",
+   "url": "https://himalayas.app/companies/shorewise-consulting/jobs/qa-analyst-katalon-groovy-354886548?utm_source=freehire.me",
+   "source": "freehire",
+   "country": "CA",
+   "country_name": "Canada",
+   "city": null,
+   "remote": true,
+   "posted": "2026-08-08",
+   "score": 11.0,
+   "matched_skills": [
+    "sql"
+   ],
+   "relocation": true,
+   "relocation_signals": [
+    "visa sponsorship",
+    "visa sponsor"
+   ],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 73543,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": false
   },
   {
    "uid": "28adfa20f72a4957",
@@ -1467,7 +1384,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "ef57658e51712e56",
@@ -1490,7 +1407,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "0062b28cd388f11b",
@@ -1737,29 +1654,6 @@
    "is_new": false
   },
   {
-   "uid": "46f0bad976a6effc",
-   "title": "Test Engineer MTC",
-   "company": "NEXANS NORWAY AS AVD FABRIKK HALDEN",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7692429b-018e-40bf-a6dc-a4f5ada250fa",
-   "source": "nav",
-   "country": "NO",
-   "country_name": "Norway",
-   "city": "Halden",
-   "remote": false,
-   "posted": "2026-08-10",
-   "score": 10.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 84857,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": "NOK",
-   "is_new": false
-  },
-  {
    "uid": "1a3819d824e1c9ee",
    "title": "QA Release Responsible Incoming Materials & EU Release",
    "company": "Johnson & Johnson",
@@ -1780,7 +1674,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "dc3ffee803cc856b",
@@ -2082,55 +1976,6 @@
    "salary_max": null,
    "salary_currency": null,
    "is_new": false
-  },
-  {
-   "uid": "71d5a5df86772480",
-   "title": "QA Lead",
-   "company": "Foundation Health",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/foundation-health/remote-qa-lead-106277?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "GB",
-   "country_name": "United Kingdom",
-   "city": "United Kingdom",
-   "remote": true,
-   "posted": "2026-08-04",
-   "score": 10.0,
-   "matched_skills": [
-    "playwright",
-    "typescript"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 97835,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "bd9c668dc9ab3298",
-   "title": "Qualified Person - Senior QA Specialist",
-   "company": "HOUSE OF RECRUITMENT SOLUTIONS BV",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/N2NmOGQyMzQtNDkxNi00ZDIzLTg3ZGUtZjJmZDNkZDY0NTRhIDM",
-   "source": "eures",
-   "country": "BE",
-   "country_name": "Belgium",
-   "city": null,
-   "remote": false,
-   "posted": "2026-08-15",
-   "score": 10.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 77923,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": true
   },
   {
    "uid": "eee997312c76d25f",
@@ -2624,52 +2469,6 @@
    "is_new": false
   },
   {
-   "uid": "4be4adf3eae2b10e",
-   "title": "HW Test Engineer – New Product Development",
-   "company": "AUTOSTORE SYSTEM AB",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1b42718a-dd92-4e71-a6f5-8f586d670cb6",
-   "source": "nav",
-   "country": "NO",
-   "country_name": "Norway",
-   "city": "Nedre Vats",
-   "remote": false,
-   "posted": "2026-07-29",
-   "score": 9.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 84857,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": "NOK",
-   "is_new": false
-  },
-  {
-   "uid": "18d2dae149b4cd51",
-   "title": "Manufacturing Test Engineering Manager",
-   "company": "ELTEK NORWAY AS",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/9e292b8f-211c-41de-b8c5-131e6601cb45",
-   "source": "nav",
-   "country": "NO",
-   "country_name": "Norway",
-   "city": "Drammen",
-   "remote": false,
-   "posted": "2026-08-06",
-   "score": 9.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 84857,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": "NOK",
-   "is_new": false
-  },
-  {
    "uid": "10a037ee4a6a1fab",
    "title": "QA Engineer",
    "company": "Jonas Software",
@@ -2742,39 +2541,16 @@
    "is_new": false
   },
   {
-   "uid": "73b55d71c4d02f75",
-   "title": "QA Specialist - Studentermedhjælper",
-   "company": "CARL RAS A/S",
-   "url": "https://app.jobmatchprofile.com/6ye57d/carl-ras-as/sf6a2p/qa-specialist---studentermedhjalper?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "DK",
-   "country_name": "Denmark",
-   "city": "Herlev",
-   "remote": false,
-   "posted": "2026-08-04",
-   "score": 9.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 95806,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "96974a837b7a396e",
-   "title": "QA Divisie Manager",
+   "uid": "b051e32fe14cc1b7",
+   "title": "Social Deal Stage Software Tester",
    "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTcxNzNmMjEtN2IyZS1kYjY4LWUwNjMtNjg5M2IyMGE5MjljIDQy",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTcyYjVjZjgtNmQ1YS00MjRmLWUwNjMtNjg5M2IyMGExY2Q2IDQy",
    "source": "eures",
    "country": "NL",
    "country_name": "Netherlands",
    "city": null,
    "remote": false,
-   "posted": "2026-07-21",
+   "posted": "2026-07-22",
    "score": 9.0,
    "matched_skills": [],
    "relocation": false,
@@ -2788,16 +2564,39 @@
    "is_new": true
   },
   {
-   "uid": "3ed6e8d6d10fa01e",
-   "title": "QA Specialist",
+   "uid": "2e81ebc528a49fc2",
+   "title": "QA & Specification Specialist",
    "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTZkYWU1OWMtMGM1OS1mZDZiLWUwNjMtNjg5M2IyMGFiYTk2IDQy",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTZjNmM3YzQtNDVkMC1mZmIxLWUwNjMtNjg5M2IyMGFkYzVhIDQy",
    "source": "eures",
    "country": "NL",
    "country_name": "Netherlands",
    "city": null,
    "remote": false,
-   "posted": "2026-07-18",
+   "posted": "2026-07-17",
+   "score": 9.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 77982,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
+   "uid": "819a2155c3b6eb68",
+   "title": "Social Deal - Software Tester & (Tech) Support Medewerker",
+   "company": "",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTcyYjVjZjgtYTg0YS00MjRmLWUwNjMtNjg5M2IyMGExY2Q2IDQy",
+   "source": "eures",
+   "country": "NL",
+   "country_name": "Netherlands",
+   "city": null,
+   "remote": false,
+   "posted": "2026-07-22",
    "score": 9.0,
    "matched_skills": [],
    "relocation": false,
@@ -3459,6 +3258,29 @@
    "is_new": false
   },
   {
+   "uid": "7e6b8d71d66dacc3",
+   "title": "QA Specialist Retail",
+   "company": "",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTRlM2ZiOTEtYjAzOC1iN2EzLWUwNjMtNjg5M2IyMGExMWI5IDQy",
+   "source": "eures",
+   "country": "NL",
+   "country_name": "Netherlands",
+   "city": null,
+   "remote": false,
+   "posted": "2026-06-23",
+   "score": 8.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 77982,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
    "uid": "c6ab4f1e97257bb7",
    "title": "Senior QA-specialist inom Life Science!",
    "company": "ACADEMIC WORK SWEDEN AB",
@@ -3479,7 +3301,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "d126d599b3cfa37b",
