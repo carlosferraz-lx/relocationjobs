@@ -1,6 +1,6 @@
 # QA Relocation Job Digest
 
-_Updated 2026-08-15 06:50 UTC · 10 new · 140 active matches_
+_Updated 2026-08-16 06:51 UTC · 4 new · 133 active matches_
 
 Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-living floor.
 
@@ -22,24 +22,17 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
-| 10 | [Qualified Person - Senior QA Specialist](https://europa.eu/eures/portal/jv-se/jv-detail/N2NmOGQyMzQtNDkxNi00ZDIzLTg3ZGUtZjJmZDNkZDY0NTRhIDM)<br><sub>HOUSE OF RECRUITMENT SOLUTIONS BV · </sub> | Belgium | eures | _not stated_ | — | 2026-08-15 |
-| 18 | [QA-testare till iFACTS i Malmö](https://arbetsformedlingen.se/platsbanken/annonser/31355554)<br><sub>A Hub AB · playwright, ci/cd, github actions, python, sql</sub> | Malmö, Sweden | platsbanken | _not stated_ | — | 2026-08-14T16:01:43 |
-| 16 | [QA-testare till iFACTS i Malmö](https://arbetsformedlingen.se/platsbanken/annonser/31355554?utm_source=freehire.me)<br><sub>A-hub · playwright, python, sql</sub> | Malmö, Sweden | freehire | _not stated_ | — | 2026-08-14 |
-| 10 | [Senior Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31352981)<br><sub>VOLVO BUSINESS SERVICES AKTIEBOLAG · </sub> | Eskilstuna, Sweden | platsbanken | _not stated_ | — | 2026-08-14T10:59:35 |
-| 10 | [Experienced Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31352363)<br><sub>VOLVO BUSINESS SERVICES AKTIEBOLAG · </sub> | Eskilstuna, Sweden | platsbanken | _not stated_ | — | 2026-08-14T09:48:20 |
-| 10 | [QA Release Responsible Incoming Materials & EU Release](https://jj.wd5.myworkdayjobs.com/JJ/job/Beerse-Antwerp-Belgium/QA-Release-Responsible-Incoming-Materials---EU-Release_R-092855-1?utm_source=freehire.me)<br><sub>Johnson & Johnson · </sub> | Antwerp, Belgium | freehire | _not stated_ | — | 2026-08-14 |
-| 7 | [Senior QA-specialist inom Life Science!](https://arbetsformedlingen.se/platsbanken/annonser/31354820)<br><sub>ACADEMIC WORK SWEDEN AB · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-08-14T14:34:22 |
-| 11 | [QA Software Tester](https://www.adzuna.co.uk/jobs/details/5840201332?utm_medium=api&utm_source=freehire.me)<br><sub>Spectrum IT Recruitment · selenium, cucumber, bdd</sub> | Chilworth, United Kingdom | freehire | _not stated_ | remote | 2026-08-13 |
-| 9 | [QA Divisie Manager](https://europa.eu/eures/portal/jv-se/jv-detail/NTcxNzNmMjEtN2IyZS1kYjY4LWUwNjMtNjg5M2IyMGE5MjljIDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-21 |
-| 9 | [QA Specialist](https://europa.eu/eures/portal/jv-se/jv-detail/NTZkYWU1OWMtMGM1OS1mZDZiLWUwNjMtNjg5M2IyMGFiYTk2IDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-18 |
+| 9 | [Social Deal Stage Software Tester](https://europa.eu/eures/portal/jv-se/jv-detail/NTcyYjVjZjgtNmQ1YS00MjRmLWUwNjMtNjg5M2IyMGExY2Q2IDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-22 |
+| 9 | [Social Deal - Software Tester & (Tech) Support Medewerker](https://europa.eu/eures/portal/jv-se/jv-detail/NTcyYjVjZjgtYTg0YS00MjRmLWUwNjMtNjg5M2IyMGExY2Q2IDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-22 |
+| 9 | [QA & Specification Specialist](https://europa.eu/eures/portal/jv-se/jv-detail/NTZjNmM3YzQtNDVkMC1mZmIxLWUwNjMtNjg5M2IyMGFkYzVhIDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-17 |
+| 8 | [QA Specialist Retail](https://europa.eu/eures/portal/jv-se/jv-detail/NTRlM2ZiOTEtYjAzOC1iN2EzLWUwNjMtNjg5M2IyMGExMWI5IDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-06-23 |
 
 ## All active matches
 
-### Belgium (4)
+### Belgium (3)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
-| 10 | [Qualified Person - Senior QA Specialist](https://europa.eu/eures/portal/jv-se/jv-detail/N2NmOGQyMzQtNDkxNi00ZDIzLTg3ZGUtZjJmZDNkZDY0NTRhIDM)<br><sub>HOUSE OF RECRUITMENT SOLUTIONS BV · </sub> | Belgium | eures | _not stated_ | — | 2026-08-15 |
 | 10 | [QA Release Responsible Incoming Materials & EU Release](https://jj.wd5.myworkdayjobs.com/JJ/job/Beerse-Antwerp-Belgium/QA-Release-Responsible-Incoming-Materials---EU-Release_R-092855-1?utm_source=freehire.me)<br><sub>Johnson & Johnson · </sub> | Antwerp, Belgium | freehire | _not stated_ | — | 2026-08-14 |
 | 10 | [QA Technician](https://cryoport.wd12.myworkdayjobs.com/external/job/Villers-le-Bouillet/QA-Technician_JR101669?utm_source=freehire.me)<br><sub>cryoport · </sub> | Villers-le-Bouillet, Belgium | freehire | _not stated_ | — | 2026-08-12 |
 | 10 | [QA Release Specialist](https://job-boards.greenhouse.io/legendcareerseu/jobs/4645440005?utm_source=freehire.me)<br><sub>Legend Biotech EU · </sub> | Gent, Belgium | freehire | _not stated_ | — | 2026-08-10 |
@@ -54,16 +47,10 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 8 | [QA Analyst II](https://jobs.lever.co/jobgether/041db2b8-3125-4d46-b5a5-89d52954e2ed?utm_source=freehire.me)<br><sub>jobgether · agile</sub> | Canada, Canada | freehire | _not stated_ | remote | 2026-08-11 |
 | 9 | [QA Engineer](https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote---Canada/QA-Engineer_R51665?utm_source=freehire.me)<br><sub>Jonas Software · sql, agile</sub> | Remote - Canada, Canada | freehire | _not stated_ | remote | 2026-08-10 |
 | 8 | [QA Analyst II](https://jobs.ashbyhq.com/tempo-io/dd01a747-5bd8-4357-831f-0c21e1456cab?utm_source=freehire.me)<br><sub>tempo-io · agile</sub> | Canada | freehire | _not stated_ | remote | 2026-08-10 |
-| 12 | [QA Analyst (Katalon + Groovy)](https://himalayas.app/companies/shorewise-consulting/jobs/qa-analyst-katalon-groovy-354886548?utm_source=freehire.me)<br><sub>ShoreWise Consulting · sql</sub> | Canada | freehire | _not stated_ | 🛂 yes | 2026-08-08 |
+| 11 | [QA Analyst (Katalon + Groovy)](https://himalayas.app/companies/shorewise-consulting/jobs/qa-analyst-katalon-groovy-354886548?utm_source=freehire.me)<br><sub>ShoreWise Consulting · sql</sub> | Canada | freehire | _not stated_ | 🛂 yes | 2026-08-08 |
 | 11 | [QA Automation Engineer](https://djinni.co/jobs/828099-qa-automation-engineer/?utm_source=freehire.me)<br><sub>YozmaTech · kubernetes, python, sql, agile</sub> | Canada | freehire | _not stated_ | remote | 2026-08-06 |
 
-### Denmark (1)
-
-| Score | Role | Location | Source | Salary | Reloc | Posted |
-|------:|------|----------|--------|--------|-------|--------|
-| 9 | [QA Specialist - Studentermedhjælper](https://app.jobmatchprofile.com/6ye57d/carl-ras-as/sf6a2p/qa-specialist---studentermedhjalper?utm_source=freehire.me)<br><sub>CARL RAS A/S · </sub> | Herlev, Denmark | freehire | _not stated_ | — | 2026-08-04 |
-
-### Finland (8)
+### Finland (7)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
@@ -74,14 +61,12 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 10 | [QA/QC Engineer - Data Centre & Critical Infra Inspections](https://fi.whatjobs.com/pub_api__cpl__947973__7123?geoID=21&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me)<br><sub>Whitewater Group · </sub> | Espoo, Finland | freehire | _not stated_ | — | 2026-08-10 |
 | 10 | [QA Administrator for Data Centre Projects (Finland)](https://fi.whatjobs.com/pub_api__cpl__804627__7123?geoID=46&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me)<br><sub>Winthrop Engineering Limited · </sub> | Helsinki, Finland | freehire | _not stated_ | — | 2026-08-10 |
 | 10 | [QA/QC Engineer – Data Centre Construction](https://fi.whatjobs.com/pub_api__cpl__840952__7123?geoID=21&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me)<br><sub>Winthrop Technologies · </sub> | Espoo, Finland | freehire | _not stated_ | — | 2026-08-10 |
-| 14 | [QA Lead / Senior Test Engineer](https://careers.insta.fi/jobs/8173647-qa-lead-senior-test-engineer?utm_source=freehire.me)<br><sub>Insta · playwright, jenkins, agile</sub> | Tampere, Finland | freehire | _not stated_ | — | 2026-08-04 |
 
-### United Kingdom (2)
+### United Kingdom (1)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
 | 11 | [QA Software Tester](https://www.adzuna.co.uk/jobs/details/5840201332?utm_medium=api&utm_source=freehire.me)<br><sub>Spectrum IT Recruitment · selenium, cucumber, bdd</sub> | Chilworth, United Kingdom | freehire | _not stated_ | remote | 2026-08-13 |
-| 10 | [QA Lead](https://www.arbeitnow.co.uk/jobs/companies/foundation-health/remote-qa-lead-106277?utm_source=freehire.me)<br><sub>Foundation Health · playwright, typescript</sub> | United Kingdom, United Kingdom | freehire | _not stated_ | remote | 2026-08-04 |
 
 ### Netherlands (13)
 
@@ -94,23 +79,20 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 10 | [QA Officer A](https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/QA-Officer-A_31158221?utm_source=freehire.me)<br><sub>Abbott · </sub> | Olst, Netherlands | freehire | _not stated_ | — | 2026-08-11 |
 | 14 | [QA & DevOps Engineer for Immersive Video Streaming](https://nl.whatjobs.com/pub_api__cpl__143760870__7137?geoID=53&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me)<br><sub>Tiledmedia Operations B.V. · </sub> | Rotterdam, Netherlands | freehire | _not stated_ | 🛂 yes | 2026-08-10 |
 | 10 | [QA & DevOps Engineer for Immersive Video Streaming](https://nl.whatjobs.com/pub_api__cpl__144763255__7137?geoID=53&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me)<br><sub>Rotterdam Innovation City · </sub> | Rotterdam, Netherlands | freehire | _not stated_ | — | 2026-08-10 |
-| 12 | [QA & Verifications Engineer](https://codekeeper.applytojob.com/apply/9YfP8UwFUY/QA-Verifications-Engineer?utm_source=freehire.me)<br><sub>Codekeeper · python, java, javascript, sql</sub> | Netherlands | freehire | _not stated_ | remote | 2026-08-05 |
-| 12 | [QA & Verifications Specialist](https://codekeeper.applytojob.com/apply/OgBv8wZ0Ix/QA-Verifications-Specialist?utm_source=freehire.me)<br><sub>Codekeeper · python, java, javascript, sql</sub> | Netherlands | freehire | _not stated_ | remote | 2026-08-05 |
 | 9 | [QA Operations Shopfloor Specialist](https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/BMS/job/Specialist--QA-Operations-Shopfloor_R1605093?utm_source=freehire.me)<br><sub>Bristol Myers Squibb · </sub> | Leiden, Netherlands | freehire | _not stated_ | — | 2026-08-05 |
 | 9 | [QA Officer](https://bdairy.recruitee.com/o/qa-officer?utm_source=freehire.me)<br><sub>Bdairy · </sub> | Dordrecht, Netherlands | freehire | _not stated_ | — | 2026-08-05 |
-| 9 | [QA Divisie Manager](https://europa.eu/eures/portal/jv-se/jv-detail/NTcxNzNmMjEtN2IyZS1kYjY4LWUwNjMtNjg5M2IyMGE5MjljIDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-21 |
-| 9 | [QA Specialist](https://europa.eu/eures/portal/jv-se/jv-detail/NTZkYWU1OWMtMGM1OS1mZDZiLWUwNjMtNjg5M2IyMGFiYTk2IDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-18 |
+| 9 | [Social Deal Stage Software Tester](https://europa.eu/eures/portal/jv-se/jv-detail/NTcyYjVjZjgtNmQ1YS00MjRmLWUwNjMtNjg5M2IyMGExY2Q2IDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-22 |
+| 9 | [Social Deal - Software Tester & (Tech) Support Medewerker](https://europa.eu/eures/portal/jv-se/jv-detail/NTcyYjVjZjgtYTg0YS00MjRmLWUwNjMtNjg5M2IyMGExY2Q2IDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-22 |
+| 9 | [QA & Specification Specialist](https://europa.eu/eures/portal/jv-se/jv-detail/NTZjNmM3YzQtNDVkMC1mZmIxLWUwNjMtNjg5M2IyMGFkYzVhIDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-17 |
+| 8 | [QA Specialist Retail](https://europa.eu/eures/portal/jv-se/jv-detail/NTRlM2ZiOTEtYjAzOC1iN2EzLWUwNjMtNjg5M2IyMGExMWI5IDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-06-23 |
 
-### Norway (11)
+### Norway (8)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
 | 10 | [QA Manager / Product Certification Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/1febc71d-ae0b-49af-93be-223acffcc913)<br><sub>OPTRONICS TECHNOLOGY AS · </sub> | Oslo, Norway | nav | _not stated_ | — | 2026-08-11 |
-| 10 | [Test Engineer MTC](https://arbeidsplassen.nav.no/stillinger/stilling/7692429b-018e-40bf-a6dc-a4f5ada250fa)<br><sub>NEXANS NORWAY AS AVD FABRIKK HALDEN · </sub> | Halden, Norway | nav | _not stated_ | — | 2026-08-10 |
 | 7 | [Hardware Test Engineer/Technician](https://arbeidsplassen.nav.no/stillinger/stilling/2f2ccbfa-e7d3-4e8a-9e1e-9112b5bc4663)<br><sub>KONGSBERG MARITIME AS AVD HORTEN K-SIM · </sub> | Horten, Norway | nav | _not stated_ | — | 2026-08-10 |
 | 14 | [Join our DevOps teams as a Software Engineer with a focus on Test Automation](https://arbeidsplassen.nav.no/stillinger/stilling/196649f0-0a89-4967-aea0-cc515e00d8c5)<br><sub>DNB BANK ASA AVD BJØRVIKA · test automation, ci/cd, agile</sub> | Oslo, Norway | nav | _not stated_ | — | 2026-08-06 |
-| 9 | [Manufacturing Test Engineering Manager](https://arbeidsplassen.nav.no/stillinger/stilling/9e292b8f-211c-41de-b8c5-131e6601cb45)<br><sub>ELTEK NORWAY AS · </sub> | Drammen, Norway | nav | _not stated_ | — | 2026-08-06 |
-| 9 | [HW Test Engineer – New Product Development](https://arbeidsplassen.nav.no/stillinger/stilling/1b42718a-dd92-4e71-a6f5-8f586d670cb6)<br><sub>AUTOSTORE SYSTEM AB · </sub> | Nedre Vats, Norway | nav | _not stated_ | — | 2026-07-29 |
 | 9 | [Hardware Test Engineer/Technician  - Testingeniør/tekniker – Assembly & Test, Carpus](https://arbeidsplassen.nav.no/stillinger/stilling/821cf2c5-51c6-453e-806e-3eeb2d28c626)<br><sub>KONGSBERG GRUPPEN ASA · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-07-20 |
 | 8 | [Graduate 2027: Automation Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/63fdaa06-2430-4ae3-a346-9b4fcf5ee17b)<br><sub>AKER BP ASA AVD TRONDHEIM · </sub> | Trondheim, Norway | nav | _not stated_ | — | 2026-07-15 |
 | 8 | [Team Manager Quality Assurance - Strategic Production](https://arbeidsplassen.nav.no/stillinger/stilling/611b4cf3-bf30-4862-9b5d-8b9a990fe042)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-07-07 |
