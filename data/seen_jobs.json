@@ -1,6 +1,6 @@
 {
  "updated": "2026-08-21",
- "count": 352,
+ "count": 358,
  "seen": {
   "c8b245d66cb9a212": {
    "title": "QA Engineer / Test Automation Engineer",
@@ -1266,7 +1266,7 @@
    "title": "QA Engineer- Puurs, BE",
    "company": "Purna Pharmaceuticals NV",
    "country": "BE",
-   "first_seen": "2026-08-06"
+   "first_seen": "2026-08-21"
   },
   "cc63d1b0455ad8e6": {
    "title": "QA Manager",
@@ -2112,6 +2112,42 @@
    "title": "QA Officer",
    "company": "",
    "country": "NL",
+   "first_seen": "2026-08-21"
+  },
+  "cde5841099e4e20f": {
+   "title": "Experienced Software Test Engineer, Lund",
+   "company": "AXIS COMMUNICATIONS AKTIEBOLAG",
+   "country": "SE",
+   "first_seen": "2026-08-21"
+  },
+  "3ce5c595a639eac6": {
+   "title": "Cloud Software Test Engineer - Custom Object Training (COT), Lund",
+   "company": "AXIS COMMUNICATIONS AKTIEBOLAG",
+   "country": "SE",
+   "first_seen": "2026-08-21"
+  },
+  "f3e7ecb4e8bd5bcf": {
+   "title": "Test Automation Engineer // Luxoft DXC",
+   "company": "Oddwork Sweden AB",
+   "country": "SE",
+   "first_seen": "2026-08-21"
+  },
+  "7e4d8b6f0ee3e22b": {
+   "title": "Supplier Quality Engineer och teamlead inom mekanik",
+   "company": "ACADEMIC WORK SWEDEN AB",
+   "country": "SE",
+   "first_seen": "2026-08-21"
+  },
+  "fafba7914a62cfd6": {
+   "title": "QA manager food",
+   "company": "Oxford Global Resources (België) NV",
+   "country": "BE",
+   "first_seen": "2026-08-21"
+  },
+  "c85b7393dfdf1c5e": {
+   "title": "QA Assistant",
+   "company": "JobLink BV",
+   "country": "BE",
    "first_seen": "2026-08-21"
   }
  }
