@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T06:58:57+00:00",
+ "generated_at": "2026-08-21T10:07:26+00:00",
  "candidate": "Carlos Ferraz",
  "baseline": {
   "country": "PT",
@@ -72,8 +72,8 @@
   }
  ],
  "counts": {
-  "new": 17,
-  "total": 138
+  "new": 6,
+  "total": 141
  },
  "jobs": [
   {
@@ -108,7 +108,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "7fd126d184d0168e",
@@ -212,7 +212,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "fd6f3888757b341b",
@@ -274,7 +274,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "010f24e9e6514b2e",
@@ -336,6 +336,66 @@
    "salary_max": null,
    "salary_currency": null,
    "is_new": false
+  },
+  {
+   "uid": "cde5841099e4e20f",
+   "title": "Experienced Software Test Engineer, Lund",
+   "company": "AXIS COMMUNICATIONS AKTIEBOLAG",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31381723",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Lund",
+   "remote": false,
+   "posted": "2026-08-21T11:32:10",
+   "score": 20.0,
+   "matched_skills": [
+    "test automation",
+    "automation framework",
+    "ci/cd",
+    "jenkins",
+    "docker",
+    "python"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
+   "uid": "3ce5c595a639eac6",
+   "title": "Cloud Software Test Engineer - Custom Object Training (COT), Lund",
+   "company": "AXIS COMMUNICATIONS AKTIEBOLAG",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31381665",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Lund",
+   "remote": false,
+   "posted": "2026-08-21T11:25:33",
+   "score": 20.0,
+   "matched_skills": [
+    "test automation",
+    "automation framework",
+    "ci/cd",
+    "jenkins",
+    "docker",
+    "python"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
   },
   {
    "uid": "426c0f0b158ef7e2",
@@ -610,6 +670,34 @@
    "is_new": false
   },
   {
+   "uid": "f3e7ecb4e8bd5bcf",
+   "title": "Test Automation Engineer // Luxoft DXC",
+   "company": "Oddwork Sweden AB",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31381135",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Göteborg",
+   "remote": false,
+   "posted": "2026-08-21T10:39:07",
+   "score": 17.0,
+   "matched_skills": [
+    "test automation",
+    "ci/cd",
+    "jenkins",
+    "python"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
    "uid": "7f86007ab7d961d9",
    "title": "Test Engineer",
    "company": "Alten Sverige Aktiebolag",
@@ -663,7 +751,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "22f476a8df176017",
@@ -1141,7 +1229,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "bf713bca17af8a66",
@@ -1248,7 +1336,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "33dd86fe89ab8f06",
@@ -1353,31 +1441,6 @@
    "is_new": false
   },
   {
-   "uid": "2342586475867213",
-   "title": "QA Lead | Minecraft Blast",
-   "company": "King",
-   "url": "https://careers.king.com/us/en/job/ACMKDSUSR027884EXTERNALENUS?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "SE",
-   "country_name": "Sweden",
-   "city": "Stockholm",
-   "remote": false,
-   "posted": "2026-08-17",
-   "score": 11.0,
-   "matched_skills": [
-    "agile"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 70017,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
    "uid": "c57c823081bbfd9b",
    "title": "QA Analyst",
    "company": "Paradox Development Studio AB",
@@ -1421,7 +1484,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "1042b81494db32f6",
@@ -1536,7 +1599,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "03469d1bc63c5d33",
@@ -1559,7 +1622,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "7f7f5a0c34a36dd5",
@@ -1582,7 +1645,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "8b34ff314fea27a5",
@@ -1699,7 +1762,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "c289c59db6494216",
@@ -1916,6 +1979,29 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
+   "is_new": false
+  },
+  {
+   "uid": "7e4d8b6f0ee3e22b",
+   "title": "Supplier Quality Engineer och teamlead inom mekanik",
+   "company": "ACADEMIC WORK SWEDEN AB",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31381224",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Stockholm",
+   "remote": false,
+   "posted": "2026-08-21T10:46:59",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 70017,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
    "is_new": true
   },
   {
@@ -1939,7 +2025,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": "NOK",
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "3090d7edb631c3d0",
@@ -1985,7 +2071,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "95ff8ce4c54bf845",
@@ -2008,7 +2094,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "837a845fc630000f",
@@ -2151,6 +2237,29 @@
    "salary_max": null,
    "salary_currency": null,
    "is_new": false
+  },
+  {
+   "uid": "fafba7914a62cfd6",
+   "title": "QA manager food",
+   "company": "Oxford Global Resources (België) NV",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/OTAxNjZhYTMtYmE0My00MzQ2LThlZGQtYjExZDI0NTcwNmJlIDM",
+   "source": "eures",
+   "country": "BE",
+   "country_name": "Belgium",
+   "city": null,
+   "remote": false,
+   "posted": "2026-08-21",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 77923,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
   },
   {
    "uid": "01db9ed3aac84c58",
@@ -2707,7 +2816,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "cf5f57cdb0d149e6",
@@ -2756,50 +2865,27 @@
    "is_new": false
   },
   {
-   "uid": "143f02e14a27df80",
-   "title": "QA Manager",
-   "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTczZjdhZDItOTBlZS1hYjNjLWUwNjMtNjg5M2IyMGE0MTIxIDQy",
+   "uid": "c85b7393dfdf1c5e",
+   "title": "QA Assistant",
+   "company": "JobLink BV",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/MjJhZDdlMGEtMjNjNS00NjNmLTg4YjAtYTVhZDVkMGVhZDE0IDM",
    "source": "eures",
-   "country": "NL",
-   "country_name": "Netherlands",
+   "country": "BE",
+   "country_name": "Belgium",
    "city": null,
    "remote": false,
-   "posted": "2026-07-23",
+   "posted": "2026-07-29",
    "score": 9.0,
    "matched_skills": [],
    "relocation": false,
    "relocation_signals": [],
    "salary_status": "unknown",
    "salary_eur_year": null,
-   "salary_floor_eur": 77982,
+   "salary_floor_eur": 77923,
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "28dfd315f05c79c9",
-   "title": "QA Engineer / Software Tester",
-   "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTc1Mzk4YWEtMjI2Ni00MDMyLWUwNjMtNjg5M2IyMGEzOThlIDQy",
-   "source": "eures",
-   "country": "NL",
-   "country_name": "Netherlands",
-   "city": null,
-   "remote": false,
-   "posted": "2026-07-24",
-   "score": 9.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 77982,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
+   "is_new": true
   },
   {
    "uid": "29a3d4e2827435c8",
@@ -3407,27 +3493,27 @@
    "is_new": false
   },
   {
-   "uid": "016ce38f156076a7",
-   "title": "QA Officer",
-   "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTRmODE5NjktZGVjOS1jYjExLWUwNjMtNjg5M2IyMGFlNmNhIDQy",
+   "uid": "cfbd3eeba6047226",
+   "title": "QA Engineer- Puurs, BE",
+   "company": "Purna Pharmaceuticals NV",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/YjY1ODViNmItMWJmNC00YjAwLTg4ZWEtYzZjYTEwMzVmMTllIDM",
    "source": "eures",
-   "country": "NL",
-   "country_name": "Netherlands",
+   "country": "BE",
+   "country_name": "Belgium",
    "city": null,
    "remote": false,
-   "posted": "2026-06-24",
+   "posted": "2026-07-13",
    "score": 8.0,
    "matched_skills": [],
    "relocation": false,
    "relocation_signals": [],
    "salary_status": "unknown",
    "salary_eur_year": null,
-   "salary_floor_eur": 77982,
+   "salary_floor_eur": 77923,
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "c6ab4f1e97257bb7",
