@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-22T06:52:15+00:00",
+ "generated_at": "2026-08-23T06:53:15+00:00",
  "candidate": "Carlos Ferraz",
  "baseline": {
   "country": "PT",
@@ -72,7 +72,7 @@
   }
  ],
  "counts": {
-  "new": 4,
+  "new": 2,
   "total": 140
  },
  "jobs": [
@@ -414,38 +414,6 @@
     "playwright",
     "postman",
     "ci/cd",
-    "jenkins",
-    "java",
-    "typescript",
-    "sql",
-    "cucumber"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 73543,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "56335f6b01baf99b",
-   "title": "QA Automation Analyst",
-   "company": "J.D. Power",
-   "url": "https://himalayas.app/companies/j-d-power/jobs/qa-automation-analyst?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "CA",
-   "country_name": "Canada",
-   "city": null,
-   "remote": true,
-   "posted": "2026-08-19",
-   "score": 19.0,
-   "matched_skills": [
-    "selenium",
-    "playwright",
-    "postman",
     "jenkins",
     "java",
     "typescript",
@@ -1787,6 +1755,29 @@
    "is_new": false
   },
   {
+   "uid": "cff91e21c3869d3c",
+   "title": "Quality Engineer",
+   "company": "Navinci Diagnostics AB",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31385048",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Uppsala",
+   "remote": false,
+   "posted": "2026-08-22T10:50:49",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
    "uid": "81305e1487b6280c",
    "title": "Design Quality Engineer",
    "company": "SAAB AKTIEBOLAG",
@@ -1948,6 +1939,29 @@
    "is_new": false
   },
   {
+   "uid": "3e42354dac4ed740",
+   "title": "QA/QC Engineer - Data Centre & MEP Systems",
+   "company": "StaffPoint Oy",
+   "url": "https://fi.whatjobs.com/pub_api__cpl__970824__7123?geoID=46&utm_campaign=publisher&utm_medium=api&utm_source=freehire.me",
+   "source": "freehire",
+   "country": "FI",
+   "country_name": "Finland",
+   "city": "Helsinki",
+   "remote": false,
+   "posted": "2026-08-23",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 73200,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
    "uid": "6b0bbf01ed9c4caa",
    "title": "QA/QC Electrical Engineer",
    "company": "Winthrop Technologies",
@@ -1968,7 +1982,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "2063ee24dfc3a555",
@@ -2156,7 +2170,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "60c0e4f363745da2",
@@ -2179,7 +2193,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "01db9ed3aac84c58",
@@ -2831,29 +2845,6 @@
    "is_new": false
   },
   {
-   "uid": "6f63429d9cd05375",
-   "title": "QA Analyst, Hearts of Iron IV",
-   "company": "Paradox Interactive",
-   "url": "https://career.paradoxplaza.com/jobs/8212347-qa-analyst-hearts-of-iron-iv?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "SE",
-   "country_name": "Sweden",
-   "city": "Stockholm",
-   "remote": false,
-   "posted": "2026-08-12",
-   "score": 9.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 70017,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
    "uid": "c85b7393dfdf1c5e",
    "title": "QA Assistant",
    "company": "JobLink BV",
@@ -3374,7 +3365,7 @@
    "country_name": "Norway",
    "city": "Trondheim",
    "remote": false,
-   "posted": "2026-07-15",
+   "posted": "2026-07-14",
    "score": 8.0,
    "matched_skills": [],
    "relocation": false,
@@ -3479,7 +3470,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "c6ab4f1e97257bb7",
