@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T12:36:29+00:00",
+ "generated_at": "2026-08-30T09:32:51+00:00",
  "candidate": "Carlos Ferraz",
  "baseline": {
   "country": "PT",
@@ -72,8 +72,8 @@
   }
  ],
  "counts": {
-  "new": 3,
-  "total": 150
+  "new": 6,
+  "total": 152
  },
  "jobs": [
   {
@@ -156,7 +156,7 @@
    "city": "Stockholm",
    "remote": false,
    "posted": "2026-07-30T14:45:30",
-   "score": 27.0,
+   "score": 26.0,
    "matched_skills": [
     "playwright",
     "api testing",
@@ -965,6 +965,33 @@
    "is_new": false
   },
   {
+   "uid": "35301ba26c869f55",
+   "title": "Test Automation Engineer",
+   "company": "",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTQxYWQxNDYtM2M1Mi03OTBhLWUwNjMtNjg5M2IyMGEyYTRmIDQy",
+   "source": "eures",
+   "country": "NL",
+   "country_name": "Netherlands",
+   "city": null,
+   "remote": false,
+   "posted": "2026-06-13",
+   "score": 15.0,
+   "matched_skills": [
+    "playwright",
+    "test automation",
+    "typescript"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 77982,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
    "uid": "a9ea10790c780e02",
    "title": "Senior Test Automation Engineer / Test Lead",
    "company": "Futuria People AB",
@@ -1043,6 +1070,34 @@
    "salary_max": null,
    "salary_currency": null,
    "is_new": false
+  },
+  {
+   "uid": "f0b41ae856a2f4f9",
+   "title": "QA Automation Engineer - Playwright & Azure DevOps (Freelance kan)",
+   "company": "EngiFlex",
+   "url": "https://himalayas.app/companies/engiflex/jobs/qa-automation-engineer-playwright-azure-devops-freelance-kan?utm_source=freehire.me",
+   "source": "freehire",
+   "country": "BE",
+   "country_name": "Belgium",
+   "city": "Belgium",
+   "remote": true,
+   "posted": "2026-08-30",
+   "score": 14.0,
+   "matched_skills": [
+    "selenium",
+    "playwright",
+    "postman",
+    "sql"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 77923,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
   },
   {
    "uid": "39f4f02bb6c80564",
@@ -1553,6 +1608,31 @@
    "is_new": false
   },
   {
+   "uid": "cb9bfc79360bcabd",
+   "title": "QA-testare – Säkerhet & Pythonkunskap",
+   "company": "Gigstep AB",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31212946",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Lund",
+   "remote": false,
+   "posted": "2026-06-24T17:01:29",
+   "score": 10.0,
+   "matched_skills": [
+    "python"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": true
+  },
+  {
    "uid": "22844d336f39fb45",
    "title": "IT-testledare / Quality Assurance Test Manager",
    "company": "Thalamus it consulting AB",
@@ -1789,29 +1869,6 @@
    "salary_status": "unknown",
    "salary_eur_year": null,
    "salary_floor_eur": 70017,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "cff91e21c3869d3c",
-   "title": "Quality Engineer",
-   "company": "Navinci Diagnostics AB",
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31385048",
-   "source": "platsbanken",
-   "country": "SE",
-   "country_name": "Sweden",
-   "city": "Uppsala",
-   "remote": false,
-   "posted": "2026-08-22T10:50:49",
-   "score": 10.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 67722,
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
@@ -2651,6 +2708,29 @@
    "is_new": false
   },
   {
+   "uid": "cff91e21c3869d3c",
+   "title": "Quality Engineer",
+   "company": "Navinci Diagnostics AB",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31385048",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Uppsala",
+   "remote": false,
+   "posted": "2026-08-22T10:50:49",
+   "score": 9.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": false
+  },
+  {
    "uid": "eee997312c76d25f",
    "title": "Quality engineer",
    "company": "New Terms AB",
@@ -2973,7 +3053,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "909eca8d5744fc5a",
@@ -3091,39 +3171,16 @@
    "is_new": false
   },
   {
-   "uid": "9f94bc5f80ef7996",
-   "title": "QA Engineer",
-   "company": "vwr",
-   "url": "https://vwr.wd1.myworkdayjobs.com/avantorJobs/job/Hillegom-NLD/QA-Engineer_R-174004-1?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "NL",
-   "country_name": "Netherlands",
-   "city": "Hillegom",
-   "remote": false,
-   "posted": "2026-08-17",
-   "score": 9.0,
-   "matched_skills": [],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 77982,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
-   "uid": "b696603b6191b754",
-   "title": "Product & QA Officer",
+   "uid": "b406f171aa3d5082",
+   "title": "Quality Engineer",
    "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTgzMGUwZTktNTNjYy0zYTc1LWUwNjMtNjg5M2IyMGEwMjdjIDQy",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTg0NGZlYmYtNmNhNC1jMjQ4LWUwNjMtNjg5M2IyMGE4NDI0IDQy",
    "source": "eures",
    "country": "NL",
    "country_name": "Netherlands",
    "city": null,
    "remote": false,
-   "posted": "2026-08-04",
+   "posted": "2026-08-05",
    "score": 9.0,
    "matched_skills": [],
    "relocation": false,
@@ -3137,16 +3194,16 @@
    "is_new": true
   },
   {
-   "uid": "05c0a1e7c4583403",
-   "title": "QA Manager",
+   "uid": "322403e399098704",
+   "title": "QA Specialist",
    "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTdlMDY5OGEtOTVjZS0yNmI0LWUwNjMtNjg5M2IyMGE0M2FhIDQy",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NThmYTBiNTItZmU5YS0zYjg5LWUwNjMtNjg5M2IyMGE1MTNiIDQy",
    "source": "eures",
    "country": "NL",
    "country_name": "Netherlands",
    "city": null,
    "remote": false,
-   "posted": "2026-07-31",
+   "posted": "2026-08-14",
    "score": 9.0,
    "matched_skills": [],
    "relocation": false,
@@ -3600,16 +3657,16 @@
    "is_new": false
   },
   {
-   "uid": "82534b98aa0dc5cc",
-   "title": "Manager QA",
+   "uid": "d3b5910efa4369ff",
+   "title": "Junior Hardware QA Engineer",
    "company": "",
-   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTU5OTA4MjUtMWJjZi0zZmJjLWUwNjMtNjg5M2IyMGFhMDg1IDQy",
+   "url": "https://europa.eu/eures/portal/jv-se/jv-detail/NTVjMTQzZDMtNTdkOC05NDJhLWUwNjMtNjg5M2IyMGExY2RlIDQy",
    "source": "eures",
    "country": "NL",
    "country_name": "Netherlands",
    "city": null,
    "remote": false,
-   "posted": "2026-07-02",
+   "posted": "2026-07-04",
    "score": 8.0,
    "matched_skills": [],
    "relocation": false,
@@ -3620,7 +3677,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": false
+   "is_new": true
   },
   {
    "uid": "87ef7774261415b6",
