@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30T09:32:51+00:00",
+ "generated_at": "2026-08-30T11:45:10+00:00",
  "candidate": "Carlos Ferraz",
  "baseline": {
   "country": "PT",
@@ -72,8 +72,8 @@
   }
  ],
  "counts": {
-  "new": 6,
-  "total": 152
+  "new": 0,
+  "total": 153
  },
  "jobs": [
   {
@@ -655,6 +655,36 @@
    "is_new": false
   },
   {
+   "uid": "df2c054b51862c22",
+   "title": "QA Software Engineer",
+   "company": "Incognito Software Systems",
+   "url": "https://himalayas.app/companies/incognito-software-systems/jobs/qa-software-engineer?utm_source=freehire.me",
+   "source": "freehire",
+   "country": "CA",
+   "country_name": "Canada",
+   "city": "British Columbia",
+   "remote": true,
+   "posted": "2026-08-30",
+   "score": 17.0,
+   "matched_skills": [
+    "playwright",
+    "jenkins",
+    "docker",
+    "python",
+    "java",
+    "sql"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 73543,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": false
+  },
+  {
    "uid": "702c8119ecd8d4e7",
    "title": "QA/Test Engineer for Embedded Systems",
    "company": "Avaron AB",
@@ -989,7 +1019,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "a9ea10790c780e02",
@@ -1097,7 +1127,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "39f4f02bb6c80564",
@@ -1630,7 +1660,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "22844d336f39fb45",
@@ -3191,7 +3221,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "322403e399098704",
@@ -3214,7 +3244,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "29a3d4e2827435c8",
@@ -3677,7 +3707,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "87ef7774261415b6",
