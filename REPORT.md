@@ -1,6 +1,6 @@
 # QA Relocation Job Digest
 
-_Updated 2026-08-30 09:32 UTC · 6 new · 152 active matches_
+_Updated 2026-08-30 11:45 UTC · 0 new · 153 active matches_
 
 Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-living floor.
 
@@ -20,14 +20,7 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 
 ## New since last run
 
-| Score | Role | Location | Source | Salary | Reloc | Posted |
-|------:|------|----------|--------|--------|-------|--------|
-| 14 | [QA Automation Engineer - Playwright & Azure DevOps (Freelance kan)](https://himalayas.app/companies/engiflex/jobs/qa-automation-engineer-playwright-azure-devops-freelance-kan?utm_source=freehire.me)<br><sub>EngiFlex · selenium, playwright, postman, sql</sub> | Belgium, Belgium | freehire | _not stated_ | remote | 2026-08-30 |
-| 9 | [QA Specialist](https://europa.eu/eures/portal/jv-se/jv-detail/NThmYTBiNTItZmU5YS0zYjg5LWUwNjMtNjg5M2IyMGE1MTNiIDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-08-14 |
-| 9 | [Quality Engineer](https://europa.eu/eures/portal/jv-se/jv-detail/NTg0NGZlYmYtNmNhNC1jMjQ4LWUwNjMtNjg5M2IyMGE4NDI0IDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-08-05 |
-| 8 | [Junior Hardware QA Engineer](https://europa.eu/eures/portal/jv-se/jv-detail/NTVjMTQzZDMtNTdkOC05NDJhLWUwNjMtNjg5M2IyMGExY2RlIDQy)<br><sub> · </sub> | Netherlands | eures | _not stated_ | — | 2026-07-04 |
-| 10 | [QA-testare – Säkerhet & Pythonkunskap](https://arbetsformedlingen.se/platsbanken/annonser/31212946)<br><sub>Gigstep AB · python</sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-06-24T17:01:29 |
-| 15 | [Test Automation Engineer](https://europa.eu/eures/portal/jv-se/jv-detail/NTQxYWQxNDYtM2M1Mi03OTBhLWUwNjMtNjg5M2IyMGEyYTRmIDQy)<br><sub> · playwright, test automation, typescript</sub> | Netherlands | eures | _not stated_ | — | 2026-06-13 |
+_No new roles today._
 
 ## All active matches
 
@@ -39,10 +32,11 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 10 | [QA Investigator](https://job-boards.greenhouse.io/legendcareerseu/jobs/4726066005?utm_source=freehire.me)<br><sub>Legend Biotech EU · </sub> | gent, Belgium | freehire | _not stated_ | — | 2026-08-28 |
 | 21 | [QA Engineer](https://jobs.ashbyhq.com/gorilla/0a8f6739-fcc0-47af-bd8e-9a29ffb249b5?utm_source=freehire.me)<br><sub>gorilla · selenium, playwright, cypress, appium, jmeter</sub> | Belgium, Belgium | freehire | _not stated_ | — | 2026-08-20 |
 
-### Canada (3)
+### Canada (4)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
+| 17 | [QA Software Engineer](https://himalayas.app/companies/incognito-software-systems/jobs/qa-software-engineer?utm_source=freehire.me)<br><sub>Incognito Software Systems · playwright, jenkins, docker, python, java</sub> | British Columbia, Canada | freehire | _not stated_ | remote | 2026-08-30 |
 | 9 | [QA Assurance Analyst](https://himalayas.app/companies/irth/jobs/qa-assurance-analyst?utm_source=freehire.me)<br><sub>Irth · sql, agile</sub> | Canada, Canada | freehire | _not stated_ | remote | 2026-08-28 |
 | 7 | [QA Analyst](https://apply.workable.com/j/452C7842AD?utm_source=freehire.me)<br><sub>Devoted Studios · agile</sub> | Montreal, Canada | freehire | _not stated_ | remote | 2026-08-19 |
 | 11 | [QA Engineer - WebDriverIO](https://astra-north.zohorecruit.ca/jobs/Careers/1695000035856075?utm_source=freehire.me)<br><sub>Astra North Infoteck Inc. · ci/cd, java, javascript, typescript</sub> | Mississauga, Canada | freehire | _not stated_ | remote | 2026-08-17 |
