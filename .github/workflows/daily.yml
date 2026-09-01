@@ -5,9 +5,11 @@ on:
     - cron: "0 6 * * *"        # every day at 06:00 UTC
   workflow_dispatch: {}          # allow manual runs from the Actions tab
 
-# Commit the refreshed digest + state, and push the dashboard to gh-pages.
+# Commit the refreshed digest + state, and deploy the dashboard to GitHub Pages.
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: daily-job-finder
@@ -17,6 +19,10 @@ jobs:
   find-jobs:
     name: Fetch, update digest, and publish dashboard
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
 
@@ -36,7 +42,6 @@ jobs:
         run: python -m jobfinder.run --state data/seen_jobs.json -v
 
       - name: Commit digest and state
-        if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,10 +53,11 @@ jobs:
             git push
           fi
 
-      - name: Publish dashboard to gh-pages
-        if: github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload dashboard artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ github.token }}
-          publish_dir: ./docs
-          publish_branch: gh-pages
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
