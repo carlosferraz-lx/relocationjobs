@@ -36,6 +36,7 @@ jobs:
         run: python -m jobfinder.run --state data/seen_jobs.json -v
 
       - name: Commit digest and state
+        if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,6 +49,7 @@ jobs:
           fi
 
       - name: Publish dashboard to gh-pages
+        if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ github.token }}
