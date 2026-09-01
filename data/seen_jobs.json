@@ -1,6 +1,6 @@
 {
  "updated": "2026-09-01",
- "count": 463,
+ "count": 464,
  "seen": {
   "c8b245d66cb9a212": {
    "title": "QA Engineer / Test Automation Engineer",
@@ -2778,6 +2778,12 @@
    "title": "Senior Software Engineer - In-Store",
    "company": "Olo",
    "country": "GB",
+   "first_seen": "2026-09-01"
+  },
+  "cbc95f9a76348a6a": {
+   "title": "Software Engineer/System Tester",
+   "company": "Swedbank AB",
+   "country": "SE",
    "first_seen": "2026-09-01"
   }
  }

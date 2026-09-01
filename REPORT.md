@@ -1,6 +1,6 @@
 # QA Relocation Job Digest
 
-_Updated 2026-09-01 13:59 UTC · 0 new · 139 active matches_
+_Updated 2026-09-01 14:08 UTC · 1 new · 139 active matches_
 
 Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-living floor.
 
@@ -20,7 +20,9 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 
 ## New since last run
 
-_No new roles today._
+| Score | Role | Location | Source | Salary | Reloc | Posted |
+|------:|------|----------|--------|--------|-------|--------|
+| 27 | [Software Engineer/System Tester](https://arbetsformedlingen.se/platsbanken/annonser/31425417)<br><sub>Swedbank AB · playwright, test automation, automation framework, ci/cd, jenkins</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-09-01T16:07:02 |
 
 ## All active matches
 
@@ -100,6 +102,7 @@ _No new roles today._
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
+| 27 | [Software Engineer/System Tester](https://arbetsformedlingen.se/platsbanken/annonser/31425417)<br><sub>Swedbank AB · playwright, test automation, automation framework, ci/cd, jenkins</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-09-01T16:07:02 |
 | 12 | [Testingenjör inom HIL och testautomation](https://arbetsformedlingen.se/platsbanken/annonser/31422852)<br><sub>Knowit Aktiebolag (publ) · python</sub> | Jönköping, Sweden | platsbanken | _not stated_ | — | 2026-09-01T11:29:55 |
 | 10 | [QA-testare till Axis!](https://arbetsformedlingen.se/platsbanken/annonser/31425098)<br><sub>Gigstep AB · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-09-01T15:34:12 |
 | 10 | [Quality Assurance Specialist](https://arbetsformedlingen.se/platsbanken/annonser/31424181)<br><sub>Tessero Sweden AB · </sub> | Södertälje, Sweden | platsbanken | _not stated_ | — | 2026-09-01T14:12:35 |
@@ -119,7 +122,6 @@ _No new roles today._
 | 15 | [Är du en fullstackutvecklare med ambition att växa mot en leadroll?](https://arbetsformedlingen.se/platsbanken/annonser/31404830)<br><sub>Academic Work Sweden AB · selenium, ci/cd, jenkins, docker, kubernetes</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-08-27T12:28:47 |
 | 11 | [QA Analyst (Contractor – Stockholm)](https://jobs.ashbyhq.com/smarkets/52aad884-0aab-477e-a99c-8a76f38f42ae?utm_source=freehire.me)<br><sub>smarkets · kubernetes, python, sql</sub> | Stockholm, Sweden | freehire | _not stated_ | remote | 2026-08-27 |
 | 11 | [QA Lead \| Minecraft Blast](https://careers.king.com/us/en/job/ACMKDSUSR027884EXTERNALENUS?utm_source=freehire.me)<br><sub>King · agile</sub> | Stockholm, Sweden | freehire | _not stated_ | — | 2026-08-27 |
-| 10 | [PA/QA Engineer  Harness & Electrical Assembly \| Space Industry](https://arbetsformedlingen.se/platsbanken/annonser/31403953)<br><sub>Semicon Service Nordic AB · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-08-27T10:36:15 |
 | 10 | [Quality Assurance Engineer to Beyond Gravity Gothenburg](https://arbetsformedlingen.se/platsbanken/annonser/31406880)<br><sub>Beyond Gravity Sweden AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-08-27T16:22:10 |
 | 10 | [Operations Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31405818)<br><sub>Avaron AB · </sub> | Västerås, Sweden | platsbanken | _not stated_ | — | 2026-08-27T14:14:38 |
 | 16 | [Testare för automatiserade tester till Quest Consulting](https://arbetsformedlingen.se/platsbanken/annonser/31397333)<br><sub>Quest Consulting Sverige AB · selenium, ci/cd, jenkins, java</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-08-26T08:30:01 |
