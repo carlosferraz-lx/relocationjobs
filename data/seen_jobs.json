@@ -1,6 +1,6 @@
 {
  "updated": "2026-09-01",
- "count": 460,
+ "count": 463,
  "seen": {
   "c8b245d66cb9a212": {
    "title": "QA Engineer / Test Automation Engineer",
@@ -2760,6 +2760,24 @@
    "title": "QA/QC Manager",
    "company": "Square City BV",
    "country": "BE",
+   "first_seen": "2026-09-01"
+  },
+  "565e374e1200c4e7": {
+   "title": "QA-testare till Axis!",
+   "company": "Gigstep AB",
+   "country": "SE",
+   "first_seen": "2026-09-01"
+  },
+  "4631c6094c26d403": {
+   "title": "Quality Assurance Specialist",
+   "company": "Tessero Sweden AB",
+   "country": "SE",
+   "first_seen": "2026-09-01"
+  },
+  "4789f2ca232ed7db": {
+   "title": "Senior Software Engineer - In-Store",
+   "company": "Olo",
+   "country": "GB",
    "first_seen": "2026-09-01"
   }
  }
