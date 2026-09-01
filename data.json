@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T11:31:22+00:00",
+ "generated_at": "2026-09-01T13:59:36+00:00",
  "candidate": "Carlos Ferraz",
  "baseline": {
   "country": "PT",
@@ -72,8 +72,8 @@
   }
  ],
  "counts": {
-  "new": 7,
-  "total": 137
+  "new": 0,
+  "total": 139
  },
  "jobs": [
   {
@@ -847,7 +847,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "942251399f76b995",
@@ -956,34 +956,6 @@
    "is_new": false
   },
   {
-   "uid": "f0b41ae856a2f4f9",
-   "title": "QA Automation Engineer - Playwright & Azure DevOps (Freelance kan)",
-   "company": "EngiFlex",
-   "url": "https://himalayas.app/companies/engiflex/jobs/qa-automation-engineer-playwright-azure-devops-freelance-kan?utm_source=freehire.me",
-   "source": "freehire",
-   "country": "BE",
-   "country_name": "Belgium",
-   "city": "Belgium",
-   "remote": true,
-   "posted": "2026-08-30",
-   "score": 14.0,
-   "matched_skills": [
-    "selenium",
-    "playwright",
-    "postman",
-    "sql"
-   ],
-   "relocation": false,
-   "relocation_signals": [],
-   "salary_status": "unknown",
-   "salary_eur_year": null,
-   "salary_floor_eur": 77923,
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "is_new": false
-  },
-  {
    "uid": "39f4f02bb6c80564",
    "title": "RF Test and Automation Engineer",
    "company": "Low Noise Factory AB",
@@ -1085,7 +1057,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "b92da86940f9f336",
@@ -1419,6 +1391,52 @@
    "is_new": false
   },
   {
+   "uid": "565e374e1200c4e7",
+   "title": "QA-testare till Axis!",
+   "company": "Gigstep AB",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31425098",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Lund",
+   "remote": false,
+   "posted": "2026-09-01T15:34:12",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": false
+  },
+  {
+   "uid": "4631c6094c26d403",
+   "title": "Quality Assurance Specialist",
+   "company": "Tessero Sweden AB",
+   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31424181",
+   "source": "platsbanken",
+   "country": "SE",
+   "country_name": "Sweden",
+   "city": "Södertälje",
+   "remote": false,
+   "posted": "2026-09-01T14:12:35",
+   "score": 10.0,
+   "matched_skills": [],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 67722,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "is_new": false
+  },
+  {
    "uid": "25d26494da3e9f14",
    "title": "PA/QA Engineer  Harness & Electrical Assembly | Space Industry",
    "company": "Semicon Service Nordic AB",
@@ -1675,7 +1693,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "c5dcc3039df413ba",
@@ -1859,7 +1877,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "3f6aef85835d69ac",
@@ -1905,7 +1923,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "facf0607f69a0410",
@@ -2089,7 +2107,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "13a9099fac5bdfa9",
@@ -2112,7 +2130,7 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "uid": "c1bb45c2d9c30144",
@@ -3298,6 +3316,34 @@
    "salary_min": null,
    "salary_max": null,
    "salary_currency": "NOK",
+   "is_new": false
+  },
+  {
+   "uid": "4789f2ca232ed7db",
+   "title": "Senior Software Engineer - In-Store",
+   "company": "Olo",
+   "url": "https://himalayas.app/companies/olo/jobs/senior-software-engineer-in-store-2784044854",
+   "source": "himalayas",
+   "country": "GB",
+   "country_name": "United Kingdom",
+   "city": null,
+   "remote": true,
+   "posted": "2026-09-01",
+   "score": 8.0,
+   "matched_skills": [
+    "test automation",
+    "ci/cd",
+    "github actions",
+    "kubernetes"
+   ],
+   "relocation": false,
+   "relocation_signals": [],
+   "salary_status": "unknown",
+   "salary_eur_year": null,
+   "salary_floor_eur": 97835,
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
    "is_new": false
   },
   {
