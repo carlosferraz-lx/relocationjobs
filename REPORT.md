@@ -1,6 +1,6 @@
 # QA Relocation Job Digest
 
-_Updated 2026-10-14 11:37 UTC · 13 new · 153 active matches_
+_Updated 2026-10-15 11:16 UTC · 15 new · 159 active matches_
 
 Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-living floor.
 
@@ -22,50 +22,47 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
-| 13 | [Senior System Test Engineer – Instrument Platform](https://arbetsformedlingen.se/platsbanken/annonser/31593238)<br><sub>Moleculent AB · ci/cd, python</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-10-14T08:29:16 |
-| 11 | [QA Test Engineer](https://europa.eu/eures/portal/jv-se/jv-details/NWRjNTI3YTMtNjdmNS00MWQyLWUwNjMtNjg5M2IyMGEyZTY5IDQy?lang=en&utm_source=freehire.me)<br><sub> · agile</sub> | The Hague, Netherlands | freehire | _not stated_ | — | 2026-10-14 |
-| 10 | [Quality Assurance (QA) Consultant  IT Projects](https://arbetsformedlingen.se/platsbanken/annonser/31593862)<br><sub>I-Ray IT Solutions AB · </sub> | Solna, Sweden | platsbanken | _not stated_ | — | 2026-10-14T09:36:55 |
-| 10 | [RF Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31586701)<br><sub>Sivers Wireless AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-10-14T00:00:00 |
-| 10 | [Design for Test Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31593140)<br><sub>Axis Communications Aktiebolag · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-10-14T08:12:49 |
-| 10 | [Quality Assurance Officer](https://arbeidsplassen.nav.no/stillinger/stilling/ec547bc6-d720-46b3-84eb-71822d3f1445)<br><sub>PALLA PHARMA AS · </sub> | Kragerø, Norway | nav | _not stated_ | — | 2026-10-14 |
-| 10 | [Software QA](https://arbeidsplassen.nav.no/stillinger/stilling/ff180b88-49a5-4f21-805e-8cdbfa6d2292)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-10-14 |
-| 10 | [R&D Automation Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/49348114-e7bf-4109-81df-23f34e0ed210)<br><sub>ONESUBSEA PROCESSING AS AVD HORSØY · </sub> | Kleppestø, Norway | nav | _not stated_ | — | 2026-10-14 |
-| 10 | [QA Engineer](https://europa.eu/eures/portal/jv-se/jv-detail/NDdhYWNmYmUtMTE3Yy00OGZmLWE2YjEtNDMxNjQzMmZmNTFiIDM)<br><sub>ACTIEF INTERIM Sint-Niklaas · </sub> | Belgium | eures | _not stated_ | — | 2026-10-14 |
-| 13 | [QA &amp; Documentation Automation Engineer](https://truvio.teamtailor.com/jobs/8538858-qa-documentation-automation-engineer?utm_source=freehire.me)<br><sub>Truvio · playwright</sub> | Viby, Denmark | freehire | _not stated_ | — | 2026-10-13 |
-| 10 | [Quality Assurance Officer](https://arbetsformedlingen.se/platsbanken/annonser/31592428)<br><sub>Jobsplus · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-10-13T20:52:39 |
-| 10 | [QA Design Assurance Engineer](https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885?utm_source=freehire.me)<br><sub>Abbott · </sub> | Zwolle, Netherlands | freehire | _not stated_ | — | 2026-10-13 |
-| 8 | [QA/Test Analyst](https://careers.detertech.com/en/postings/079e8db7-8f1f-43ea-909a-a0d9759d9866?utm_source=freehire.me)<br><sub>DeterTech · agile</sub> | Telford, United Kingdom | freehire | _not stated_ | remote | 2026-10-13 |
+| 19 | [Senior Test Lead  Quality Assurance & Test Management - 20099](https://arbetsformedlingen.se/platsbanken/annonser/31601018)<br><sub>Veritaz AB · test automation, automation framework, ci/cd, performance testing, jmeter</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-10-15T13:02:00 |
+| 14 | [Principal Hardware Test Engineer](https://www.arbeitnow.co.uk/jobs/companies/graphcore/principal-hardware-test-engineer-bristol-268412)<br><sub>Graphcore · </sub> | Bristol, United Kingdom | arbeitnow | _not stated_ | 🛂 yes | 2026-10-15 |
+| 12 | [Quality Assurance Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31598568)<br><sub>Nobina Sverige AB · ci/cd, sql</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-10-15T07:56:41 |
+| 10 | [QA-testare till Axis i Lund](https://arbetsformedlingen.se/platsbanken/annonser/31600952)<br><sub>Gigstep AB · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-10-15T12:54:33 |
+| 10 | [Junior Test Engineer – Fluid Dynamics Lab \| Finspång](https://arbetsformedlingen.se/platsbanken/annonser/31599321)<br><sub>TIKK TAKK TIME SWEDEN AB · </sub> | Finspång, Sweden | platsbanken | _not stated_ | — | 2026-10-15T09:32:12 |
+| 10 | [Senior Quality Engineer  Malmö](https://arbetsformedlingen.se/platsbanken/annonser/31599785)<br><sub>NDP IT AB · </sub> | Malmö, Sweden | platsbanken | _not stated_ | — | 2026-10-15T10:17:55 |
+| 26 | [Software Test Engineer](https://www.arbeitnow.nl/jobs/companies/optics11/software-test-engineer-amsterdam-332708)<br><sub>Optics11 · selenium, playwright, cypress, ci/cd, docker</sub> | Amsterdam, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
+| 19 | [Senior Embedded Software Test Engineer](https://www.arbeitnow.nl/jobs/companies/optics11/senior-embedded-software-test-engineer-amsterdam-92032)<br><sub>Optics11 · test automation, ci/cd, jenkins, github actions, docker</sub> | Amsterdam, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
+| 15 | [Integration Test & Validation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31597992)<br><sub>markley Konsult AB · api testing, postman, test automation, python, sql</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-10-14T19:52:10 |
+| 12 | [Senior System Test & Validation Engineer](https://www.arbeitnow.nl/jobs/companies/optics11/senior-system-test-validation-engineer-amsterdam-403201)<br><sub>Optics11 · test automation, ci/cd, docker, python</sub> | Amsterdam, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
+| 12 | [Test Engineer Windtunnels (m/v/x)](https://www.arbeitnow.nl/jobs/companies/koninklijk-nederlands-lucht-en-ruimtevaartcentrum/test-engineer-windtunnels-marknesse-84869)<br><sub>Koninklijk Nederlands Lucht- en Ruimtevaartcentrum · python</sub> | Marknesse, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
+| 10 | [Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31597935)<br><sub>Sivers Wireless AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-10-14T19:01:45 |
+| 10 | [Process Automation Engineer](https://www.arbeitnow.nl/jobs/companies/nx-filtration/process-automation-engineer-hengelo-111299)<br><sub>NX Filtration · </sub> | Hengelo, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
+| 10 | [QA-testare till Axis i Lund](https://jobs.gigstep.se/jobs/8545306-qa-testare-till-axis-i-lund?utm_source=freehire.me)<br><sub>Gigstep · </sub> | Lund, Sweden | freehire | _not stated_ | — | 2026-10-14 |
+| 8 | [QA/Test Analyst](https://himalayas.app/companies/detertech-holdings-limited/jobs/qa-test-analyst?utm_source=freehire.me)<br><sub>DeterTech Holdings Limited · agile</sub> | United Kingdom | freehire | _not stated_ | remote | 2026-10-14 |
 
 ## All active matches
 
-### Belgium (12)
+### Belgium (8)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
-| 10 | [QA Engineer](https://europa.eu/eures/portal/jv-se/jv-detail/NDdhYWNmYmUtMTE3Yy00OGZmLWE2YjEtNDMxNjQzMmZmNTFiIDM)<br><sub>ACTIEF INTERIM Sint-Niklaas · </sub> | Belgium | eures | _not stated_ | — | 2026-10-14 |
 | 23 | [QA Architect / Software Quality Engineer Synaps-platform](https://europa.eu/eures/portal/jv-se/jv-details/M2FjYzAyMDgtY2UxZC00YzQ0LWE0NTQtOWJhYjc0Y2FlOTJmIDM?lang=en&utm_source=freehire.me)<br><sub>OXIDA · selenium, playwright, cypress, ci/cd, kubernetes</sub> | Deinze, Belgium | freehire | _not stated_ | — | 2026-10-13 |
-| 16 | [QA Engineer](https://europa.eu/eures/portal/jv-se/jv-details/MTUwZmNiOWQtZjg0OC00Yzg4LTkwNzctYzU4ZGZlODBmMDVkIDM?lang=en&utm_source=freehire.me)<br><sub>ICT Roeselare · test automation, java, sql</sub> | Sint-Denijs-Westrem, Belgium | freehire | _not stated_ | — | 2026-10-10 |
 | 10 | [QA Officer](https://jobs.ajinomoto-be.com/job/Wetteren-QA-Officer/1327703757/?utm_source=freehire.me)<br><sub>Ajinomoto Bio-Pharma Services · </sub> | Wetteren, Belgium | freehire | _not stated_ | — | 2026-10-10 |
 | 10 | [QA Lead](https://jobs.barry-callebaut.com/job/Halle-QA-Lead-1500/1426302000/?utm_source=freehire.me)<br><sub>Barry Callebaut · </sub> | Halle, Belgium | freehire | _not stated_ | — | 2026-10-10 |
 | 10 | [QA Commissioning & Qualification \| Life Sciences](https://careers.capgemini.com/job/Diegem-QA-Commissioning-&-Qualification-Life-Sciences/1418623033/?utm_source=freehire.me)<br><sub>Capgemini · </sub> | Diegem, Belgium | freehire | _not stated_ | — | 2026-10-10 |
-| 21 | [QA Software Engineer](https://europa.eu/eures/portal/jv-se/jv-details/YTk0NzA0MjUtZTE3Ny00ZWE1LWFmODQtNjgxN2JjZTZhZjU3IDM?lang=en&utm_source=freehire.me)<br><sub>Kwery · selenium, playwright, cypress, ci/cd, docker</sub> | Deinze, Belgium | freehire | _not stated_ | — | 2026-10-09 |
-| 13 | [QA Engineer](https://europa.eu/eures/portal/jv-se/jv-details/NDEzYTIwMDYtNGVjMS00YTE5LThlMDQtNTIxYzFhODBiYzMxIDM?lang=en&utm_source=freehire.me)<br><sub>VIND! ICT · java, sql</sub> | Gent, Belgium | freehire | _not stated_ | — | 2026-10-09 |
 | 10 | [QA/QC Officer](https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/Belgium-Schelle/QA-QC-Officer_R10102321?utm_source=freehire.me)<br><sub>Air Liquide · </sub> | Belgium | freehire | _not stated_ | — | 2026-10-08 |
-| 10 | [QA Training Officer (halftijds)](https://conformanv.recruitee.com/o/qa-training-officer-halftijds-1?utm_source=freehire.me)<br><sub>conformanv · </sub> | Destelbergen, Belgium | freehire | _not stated_ | — | 2026-10-07 |
-| 10 | [QA CAR-T Qualification Engineer EMEA](https://jj.wd5.myworkdayjobs.com/JJ/job/Gent-East-Flanders-Belgium/QA-CAR-T-Qualification-Engineer-EMEA_R-101562?utm_source=freehire.me)<br><sub>Johnson & Johnson · </sub> | Gent, Belgium | freehire | _not stated_ | — | 2026-10-07 |
-| 9 | [QA Specialist Utilities en Equipment (Freelance mogelijk)](https://www.careers-page.com/engiflex/job/3W8X3X4V?utm_source=freehire.me)<br><sub>EngiFlex · </sub> | Puurs-Sint-Amands, Belgium | freehire | _not stated_ | — | 2026-10-06 |
+| 9 | [QA Training Officer (halftijds)](https://conformanv.recruitee.com/o/qa-training-officer-halftijds-1?utm_source=freehire.me)<br><sub>conformanv · </sub> | Destelbergen, Belgium | freehire | _not stated_ | — | 2026-10-07 |
+| 9 | [QA CAR-T Qualification Engineer EMEA](https://jj.wd5.myworkdayjobs.com/JJ/job/Gent-East-Flanders-Belgium/QA-CAR-T-Qualification-Engineer-EMEA_R-101562?utm_source=freehire.me)<br><sub>Johnson & Johnson · </sub> | Gent, Belgium | freehire | _not stated_ | — | 2026-10-07 |
+| 18 | [Software QA Architect](https://europa.eu/eures/portal/jv-se/jv-detail/M2YwYjJmMzMtNDkxNC00NDFkLWIxMWEtMTNlYWFlYzg0MTMxIDM)<br><sub>ICT Roeselare · selenium, playwright, cypress, ci/cd</sub> | Belgium | eures | _not stated_ | — | 2026-10-05 |
 
-### Canada (5)
+### Canada (4)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
 | 16 | [QA & Test Automation Developer (Canada, EST, Remote)](https://himalayas.app/companies/mindbridge-analytics-inc/jobs/qa-test-automation-developer-canada-est-remote?utm_source=freehire.me)<br><sub>MindBridge Analytics Inc. · test automation, python, java, javascript, typescript</sub> | Canada | freehire | _not stated_ | remote | 2026-10-10 |
-| 7 | [QA Analyst](https://jobs.ashbyhq.com/fellowai/54fdd53a-fada-411c-95c5-9bae28d45a19?utm_source=freehire.me)<br><sub>Fellow Insights Inc. · </sub> | Canada | freehire | _not stated_ | remote | 2026-10-10 |
+| 11 | [QA Analyst](https://jobs.ashbyhq.com/fellowai/54fdd53a-fada-411c-95c5-9bae28d45a19?utm_source=freehire.me)<br><sub>Fellow Insights Inc. · playwright, manual testing</sub> | Canada | freehire | _not stated_ | remote | 2026-10-10 |
 | 9 | [QA Analyst – AR & Web Applications (Manual Testing)](https://himalayas.app/companies/fabstation/jobs/qa-analyst-ar-web-applications-manual-testing?utm_source=freehire.me)<br><sub>FabStation · agile, manual testing</sub> | Canada | freehire | _not stated_ | remote | 2026-10-08 |
-| 9 | [QA Analyst – AR & Web Applications (Manual Testing)](https://jobs.lever.co/jobgether/c3d68825-b0b2-4d15-b157-ee7824de3c4d?utm_source=freehire.me)<br><sub>jobgether · agile, manual testing</sub> | Canada, Canada | freehire | _not stated_ | remote | 2026-10-07 |
-| 8 | [QA Analyst – AR & Web Applications (Manual Testing)](https://fabstation.breezy.hr/p/15247ead8076-qa-analyst-ar-web-applications-manual-testing?utm_source=freehire.me)<br><sub>Eterio Realties · agile, manual testing</sub> | Canada | freehire | _not stated_ | remote | 2026-10-06 |
+| 8 | [QA Analyst – AR & Web Applications (Manual Testing)](https://jobs.lever.co/jobgether/c3d68825-b0b2-4d15-b157-ee7824de3c4d?utm_source=freehire.me)<br><sub>jobgether · agile, manual testing</sub> | Canada, Canada | freehire | _not stated_ | remote | 2026-10-07 |
 
-### Denmark (8)
+### Denmark (7)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
@@ -73,24 +70,30 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 10 | [QA Student Assistant](https://jobs.boehringer-ingelheim.com/job/Copenhagen-QA-Student-Assistant-Denm/1441454533/?utm_source=freehire.me)<br><sub>Boehringer Ingelheim · </sub> | Copenhagen, Denmark | freehire | _not stated_ | — | 2026-10-10 |
 | 10 | [QA Specialist, Production Quality - 10-month parental leave cover](https://jobs.boehringer-ingelheim.com/job/Kalundborg-QA-Specialist%2C-Production-Quality-10-month-parental-leave-cover-Denm/1444277433/?utm_source=freehire.me)<br><sub>Boehringer Ingelheim · </sub> | Kalundborg, Denmark | freehire | _not stated_ | — | 2026-10-10 |
 | 10 | [QA Specialist, Drug Product](https://bavariannordic.wd103.myworkdayjobs.com/BavarianNordic/job/Kvistgaard/QA-Specialist--Drug-Product_JR101600?utm_source=freehire.me)<br><sub>bavariannordic · </sub> | Denmark | freehire | _not stated_ | — | 2026-10-08 |
-| 11 | [QA/QC Lead](https://careers-springtideps.icims.com/jobs/10957/qa-qc-lead/job?utm_source=freehire.me)<br><sub>Springtide Project Services · agile</sub> | Denmark | freehire | _not stated_ | — | 2026-10-07 |
-| 10 | [QA-specialist til Kvalitet, Regionsapoteket Midtjylland](https://job.jobnet.dk/CV/FindWork/Details/e4a470fb-1d3c-4dec-8a0b-fe814cc3b713?utm_source=freehire.me)<br><sub>Region Midtjylland · </sub> | Denmark | freehire | _not stated_ | — | 2026-10-07 |
-| 11 | [QA Developer – iGaming, CI/CD & Full-Stack Testing](https://dk.whatjobs.com/pub_api__cpl__1441931__7097?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me)<br><sub>Omnigame · ci/cd, docker</sub> | Copenhagen, Denmark | freehire | _not stated_ | — | 2026-10-06 |
+| 10 | [QA/QC Lead](https://careers-springtideps.icims.com/jobs/10957/qa-qc-lead/job?utm_source=freehire.me)<br><sub>Springtide Project Services · agile</sub> | Denmark | freehire | _not stated_ | — | 2026-10-07 |
+| 9 | [QA-specialist til Kvalitet, Regionsapoteket Midtjylland](https://job.jobnet.dk/CV/FindWork/Details/e4a470fb-1d3c-4dec-8a0b-fe814cc3b713?utm_source=freehire.me)<br><sub>Region Midtjylland · </sub> | Denmark | freehire | _not stated_ | — | 2026-10-07 |
 | 10 | [QA, Test & Release Manager - Asset Finance Tribe](https://finanskandidaten.dk/kandidat/soeg-job/qa,-test-release-manager-asset-finance-tribe-1080?utm_source=freehire.me)<br><sub>Danske Bank · agile</sub> | Birkerød, Denmark | freehire | _not stated_ | — | 2026-10-06 |
 
-### United Kingdom (3)
+### United Kingdom (4)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
-| 10 | [QA Automation Engineer - Python (Remote)](https://remotestar-team.freshteam.com/jobs/BsUnLCs0m0PF/qa-automation-engineer-python-remote?utm_source=freehire.me)<br><sub>remotestar-team · python, sql</sub> | Cambourne, United Kingdom | freehire | _not stated_ | remote | 2026-10-13 |
+| 14 | [Principal Hardware Test Engineer](https://www.arbeitnow.co.uk/jobs/companies/graphcore/principal-hardware-test-engineer-bristol-268412)<br><sub>Graphcore · </sub> | Bristol, United Kingdom | arbeitnow | _not stated_ | 🛂 yes | 2026-10-15 |
+| 10 | [QA Automation Engineer - Python (Remote)](https://remotestar-team.freshteam.com/jobs/BsUnLCs0m0PF/qa-automation-engineer-python-remote?utm_source=freehire.me)<br><sub>remotestar-team · python, sql</sub> | Cambourne, United Kingdom | freehire | _not stated_ | remote | 2026-10-15 |
+| 8 | [QA/Test Analyst](https://himalayas.app/companies/detertech-holdings-limited/jobs/qa-test-analyst?utm_source=freehire.me)<br><sub>DeterTech Holdings Limited · agile</sub> | United Kingdom | freehire | _not stated_ | remote | 2026-10-14 |
 | 8 | [QA/Test Analyst](https://careers.detertech.com/en/postings/079e8db7-8f1f-43ea-909a-a0d9759d9866?utm_source=freehire.me)<br><sub>DeterTech · agile</sub> | Telford, United Kingdom | freehire | _not stated_ | remote | 2026-10-13 |
-| 8 | [QA Engineer](https://mackintalent.zohorecruit.com/jobs/Careers/809753000002888403?utm_source=freehire.me)<br><sub>Mackin Talent · python</sub> | United Kingdom | freehire | _not stated_ | remote | 2026-10-06 |
 
-### Netherlands (10)
+### Netherlands (16)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
+| 26 | [Software Test Engineer](https://www.arbeitnow.nl/jobs/companies/optics11/software-test-engineer-amsterdam-332708)<br><sub>Optics11 · selenium, playwright, cypress, ci/cd, docker</sub> | Amsterdam, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
+| 19 | [Senior Embedded Software Test Engineer](https://www.arbeitnow.nl/jobs/companies/optics11/senior-embedded-software-test-engineer-amsterdam-92032)<br><sub>Optics11 · test automation, ci/cd, jenkins, github actions, docker</sub> | Amsterdam, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
+| 12 | [Senior System Test & Validation Engineer](https://www.arbeitnow.nl/jobs/companies/optics11/senior-system-test-validation-engineer-amsterdam-403201)<br><sub>Optics11 · test automation, ci/cd, docker, python</sub> | Amsterdam, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
+| 12 | [Test Engineer Windtunnels (m/v/x)](https://www.arbeitnow.nl/jobs/companies/koninklijk-nederlands-lucht-en-ruimtevaartcentrum/test-engineer-windtunnels-marknesse-84869)<br><sub>Koninklijk Nederlands Lucht- en Ruimtevaartcentrum · python</sub> | Marknesse, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
 | 11 | [QA Test Engineer](https://europa.eu/eures/portal/jv-se/jv-details/NWRjNTI3YTMtNjdmNS00MWQyLWUwNjMtNjg5M2IyMGEyZTY5IDQy?lang=en&utm_source=freehire.me)<br><sub> · agile</sub> | The Hague, Netherlands | freehire | _not stated_ | — | 2026-10-14 |
+| 10 | [Process Automation Engineer](https://www.arbeitnow.nl/jobs/companies/nx-filtration/process-automation-engineer-hengelo-111299)<br><sub>NX Filtration · </sub> | Hengelo, Netherlands | arbeitnow | _not stated_ | — | 2026-10-14 |
+| 10 | [QA/QC Specialist](https://job-boards.eu.greenhouse.io/terberg-kinglifter/jobs/4976743101?utm_source=freehire.me)<br><sub>Terberg Kinglifter · </sub> | IJsselstein, Netherlands | freehire | _not stated_ | — | 2026-10-14 |
 | 10 | [QA & DevOps Engineer for Immersive Video Streaming](https://nl.whatjobs.com/pub_api__cpl__171556667__7137?utm_campaign=publisher&utm_medium=api&utm_source=freehire.me)<br><sub>Tiledmedia · </sub> | Netherlands | freehire | _not stated_ | — | 2026-10-13 |
 | 10 | [QA Design Assurance Engineer](https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/QA-Design-Assurance-Engineer_31164885?utm_source=freehire.me)<br><sub>Abbott · </sub> | Zwolle, Netherlands | freehire | _not stated_ | — | 2026-10-13 |
 | 11 | [QA Analyst](https://job-boards.greenhouse.io/diligentcorporation/jobs/5788917004?utm_source=freehire.me)<br><sub>Diligent Corporation · agile</sub> | Netherlands | freehire | _not stated_ | — | 2026-10-10 |
@@ -106,13 +109,13 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
 | 10 | [Quality Assurance Officer](https://arbeidsplassen.nav.no/stillinger/stilling/ec547bc6-d720-46b3-84eb-71822d3f1445)<br><sub>PALLA PHARMA AS · </sub> | Kragerø, Norway | nav | _not stated_ | — | 2026-10-14 |
-| 10 | [Quality Assurance Officer Regulatory](https://arbeidsplassen.nav.no/stillinger/stilling/728c1be5-0f83-4c61-90d0-f55029cb6e15)<br><sub>PALLA PHARMA AS · </sub> | Kragerø, Norway | nav | _not stated_ | — | 2026-10-14 |
 | 10 | [Software QA](https://arbeidsplassen.nav.no/stillinger/stilling/ff180b88-49a5-4f21-805e-8cdbfa6d2292)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-10-14 |
+| 10 | [Quality Assurance Officer Regulatory](https://arbeidsplassen.nav.no/stillinger/stilling/728c1be5-0f83-4c61-90d0-f55029cb6e15)<br><sub>PALLA PHARMA AS · </sub> | Kragerø, Norway | nav | _not stated_ | — | 2026-10-14 |
 | 10 | [R&D Automation Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/49348114-e7bf-4109-81df-23f34e0ed210)<br><sub>ONESUBSEA PROCESSING AS AVD HORSØY · </sub> | Kleppestø, Norway | nav | _not stated_ | — | 2026-10-14 |
 | 10 | [Project Completion Engineer - Loop Tester](https://arbeidsplassen.nav.no/stillinger/stilling/6d2c7d50-2f7a-4c69-9ad4-11fc590b8bb0)<br><sub>IKM CONSULTANTS AS AVD SOLA · </sub> | Stord, Norway | nav | _not stated_ | — | 2026-10-13 |
 | 10 | [Project Completion Engineer-Loop Tester, rotation](https://arbeidsplassen.nav.no/stillinger/stilling/113af474-b6ec-4d42-a79c-6ff827e9ef74)<br><sub>HEAD ENERGY CONSULTING AS AVD STAVANGER · </sub> | Stord, Norway | nav | _not stated_ | — | 2026-10-09 |
-| 10 | [QA Advisor](https://arbeidsplassen.nav.no/stillinger/stilling/7347928f-6ded-4f86-a01c-441f2543ff80)<br><sub>OCEAN INSTALLER AS · </sub> | Stavanger, Norway | nav | _not stated_ | — | 2026-10-07 |
-| 10 | [QA/QC, Quality Assurance/Quality Control Manager  – Nussir Mineral Processing Plant](https://job-boards.greenhouse.io/bluemoonmetals/jobs/4229263009?utm_source=freehire.me)<br><sub>Blue Moon Metals · </sub> | Hammerfest, Norway | freehire | _not stated_ | — | 2026-10-07 |
+| 9 | [QA Advisor](https://arbeidsplassen.nav.no/stillinger/stilling/7347928f-6ded-4f86-a01c-441f2543ff80)<br><sub>OCEAN INSTALLER AS · </sub> | Stavanger, Norway | nav | _not stated_ | — | 2026-10-07 |
+| 9 | [QA/QC, Quality Assurance/Quality Control Manager  – Nussir Mineral Processing Plant](https://job-boards.greenhouse.io/bluemoonmetals/jobs/4229263009?utm_source=freehire.me)<br><sub>Blue Moon Metals · </sub> | Hammerfest, Norway | freehire | _not stated_ | — | 2026-10-07 |
 | 9 | [Quality Assurance Controller / Kontrollør](https://arbeidsplassen.nav.no/stillinger/stilling/b3c3a90d-4ed6-4f67-91f5-6391ba99bf10)<br><sub>KONGSBERG DEFENCE & AEROSPACE AS AVD KONGSBERG · </sub> | Kongsberg, Norway | nav | _not stated_ | — | 2026-10-01 |
 | 9 | [QA Technician](https://arbeidsplassen.nav.no/stillinger/stilling/f4a9e426-74eb-44a9-9eca-9a1c8010a376)<br><sub>NORDICNEUROLAB AS · </sub> | Bergen, Norway | nav | _not stated_ | — | 2026-09-29 |
 | 9 | [QA Inspektør](https://arbeidsplassen.nav.no/stillinger/stilling/c56588e6-942f-4420-b873-ab6f0d3a97a8)<br><sub>CFLOW AS · </sub> | Langevåg, Norway | nav | _not stated_ | — | 2026-09-21 |
@@ -122,14 +125,22 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 14 | [Senior Software Engineer, Test Automation](https://arbeidsplassen.nav.no/stillinger/stilling/d85dd0b0-99b3-4517-8a08-dac37eb00931)<br><sub>SIX ROBOTICS AS · test automation, ci/cd, python</sub> | Oslo, Norway | nav | _not stated_ | — | 2026-06-19 |
 | 8 | [Loop Test Engineer](https://arbeidsplassen.nav.no/stillinger/stilling/c685d5f1-cdf5-492f-8576-9675f135d8b6)<br><sub>EURORESSURS AS AVD SANDNES · </sub> | Sandnes, Norway | nav | _not stated_ | — | 2025-09-18 |
 
-### Sweden (99)
+### Sweden (104)
 
 | Score | Role | Location | Source | Salary | Reloc | Posted |
 |------:|------|----------|--------|--------|-------|--------|
+| 19 | [Senior Test Lead  Quality Assurance & Test Management - 20099](https://arbetsformedlingen.se/platsbanken/annonser/31601018)<br><sub>Veritaz AB · test automation, automation framework, ci/cd, performance testing, jmeter</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-10-15T13:02:00 |
+| 12 | [Quality Assurance Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31598568)<br><sub>Nobina Sverige AB · ci/cd, sql</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-10-15T07:56:41 |
+| 10 | [QA-testare till Axis i Lund](https://arbetsformedlingen.se/platsbanken/annonser/31600952)<br><sub>Gigstep AB · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-10-15T12:54:33 |
+| 10 | [Junior Test Engineer – Fluid Dynamics Lab \| Finspång](https://arbetsformedlingen.se/platsbanken/annonser/31599321)<br><sub>TIKK TAKK TIME SWEDEN AB · </sub> | Finspång, Sweden | platsbanken | _not stated_ | — | 2026-10-15T09:32:12 |
+| 10 | [Senior Quality Engineer  Malmö](https://arbetsformedlingen.se/platsbanken/annonser/31599785)<br><sub>NDP IT AB · </sub> | Malmö, Sweden | platsbanken | _not stated_ | — | 2026-10-15T10:17:55 |
+| 15 | [Integration Test & Validation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31597992)<br><sub>markley Konsult AB · api testing, postman, test automation, python, sql</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-10-14T19:52:10 |
 | 13 | [Senior System Test Engineer – Instrument Platform](https://arbetsformedlingen.se/platsbanken/annonser/31593238)<br><sub>Moleculent AB · ci/cd, python</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-10-14T08:29:16 |
 | 10 | [Quality Assurance (QA) Consultant  IT Projects](https://arbetsformedlingen.se/platsbanken/annonser/31593862)<br><sub>I-Ray IT Solutions AB · </sub> | Solna, Sweden | platsbanken | _not stated_ | — | 2026-10-14T09:36:55 |
 | 10 | [RF Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31586701)<br><sub>Sivers Wireless AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-10-14T00:00:00 |
 | 10 | [Design for Test Engineer, Lund](https://arbetsformedlingen.se/platsbanken/annonser/31593140)<br><sub>Axis Communications Aktiebolag · </sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-10-14T08:12:49 |
+| 10 | [Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31597935)<br><sub>Sivers Wireless AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-10-14T19:01:45 |
+| 10 | [QA-testare till Axis i Lund](https://jobs.gigstep.se/jobs/8545306-qa-testare-till-axis-i-lund?utm_source=freehire.me)<br><sub>Gigstep · </sub> | Lund, Sweden | freehire | _not stated_ | — | 2026-10-14 |
 | 15 | [Fullstackutvecklare till Visionera!](https://arbetsformedlingen.se/platsbanken/annonser/31588394)<br><sub>Academic Work Sweden AB · selenium, ci/cd, jenkins, docker, kubernetes</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-10-13T10:04:30 |
 | 10 | [Quality Assurance Officer](https://arbetsformedlingen.se/platsbanken/annonser/31592428)<br><sub>Jobsplus · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-10-13T20:52:39 |
 | 10 | [Production Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31590892)<br><sub>NXT Interim Malmö AB · </sub> | Malmö, Sweden | platsbanken | _not stated_ | — | 2026-10-13T14:52:22 |
@@ -147,18 +158,16 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 13 | [Frontendutvecklare till vår kund i Lund!](https://arbetsformedlingen.se/platsbanken/annonser/31573993)<br><sub>Academic Work Sweden AB · playwright, ci/cd, java, javascript, typescript</sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-10-08T19:06:09 |
 | 11 | [Starta din karriär som Junior testare på ett internationellt företag i Lund](https://arbetsformedlingen.se/platsbanken/annonser/31571113)<br><sub>StudentConsulting Sweden AB (publ) · python, java, javascript, sql</sub> | Lund, Sweden | platsbanken | _not stated_ | — | 2026-10-08T12:25:04 |
 | 10 | [Acoustical Test Engineer to Oticon Medical](https://arbetsformedlingen.se/platsbanken/annonser/31569246)<br><sub>Bravura Sverige AB · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-10-08T09:22:19 |
-| 15 | [Space Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31564774)<br><sub>APR Technologies AB · test automation, python</sub> | Enköping, Sweden | platsbanken | _not stated_ | — | 2026-10-07T10:36:23 |
-| 14 | [Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31563559)<br><sub>Skill Kompetenspartner AB · test automation, ci/cd</sub> | Trollhättan, Sweden | platsbanken | _not stated_ | — | 2026-10-07T08:33:59 |
-| 12 | [Testspecialist Automation - verksamhetsutvecklare](https://arbetsformedlingen.se/platsbanken/annonser/31566551)<br><sub>VÄSTRA GÖTALANDSREGIONEN · playwright, python, java</sub> | Mölndal, Sweden | platsbanken | _not stated_ | — | 2026-10-07T14:18:34 |
-| 10 | [Associate Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31563805)<br><sub>Swedish Match Sales Sweden Aktiebolag · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-10-07T08:57:50 |
+| 14 | [Space Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31564774)<br><sub>APR Technologies AB · test automation, python</sub> | Enköping, Sweden | platsbanken | _not stated_ | — | 2026-10-07T10:36:23 |
+| 13 | [Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31563559)<br><sub>Skill Kompetenspartner AB · test automation, ci/cd</sub> | Trollhättan, Sweden | platsbanken | _not stated_ | — | 2026-10-07T08:33:59 |
+| 11 | [Testspecialist Automation - verksamhetsutvecklare](https://arbetsformedlingen.se/platsbanken/annonser/31566551)<br><sub>VÄSTRA GÖTALANDSREGIONEN · playwright, python, java</sub> | Mölndal, Sweden | platsbanken | _not stated_ | — | 2026-10-07T14:18:34 |
+| 9 | [Associate Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31563805)<br><sub>Swedish Match Sales Sweden Aktiebolag · </sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-10-07T08:57:50 |
 | 28 | [Senior QA Engineer - Malta](https://arbetsformedlingen.se/platsbanken/annonser/31562800)<br><sub>Jobs Europe AB · selenium, playwright, cypress, api testing, postman</sub> | Sweden | platsbanken | _not stated_ | — | 2026-10-06T21:40:26 |
 | 13 | [Product Operations QA Coordinator - Malta](https://arbetsformedlingen.se/platsbanken/annonser/31562789)<br><sub>Jobs Europe AB · </sub> | Sweden | platsbanken | _not stated_ | 🛂 yes | 2026-10-06T21:42:00 |
 | 12 | [Test Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31559035)<br><sub>Agile Resources AB · python, agile</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-10-06T11:54:35 |
 | 10 | [QA Testare](https://arbetsformedlingen.se/platsbanken/annonser/31559019)<br><sub>Agile Resources AB · agile</sub> | Solna, Sweden | platsbanken | _not stated_ | — | 2026-10-06T11:53:36 |
 | 9 | [Testingenjörer inom inbyggdasystem för uppdrag inom försvarsindustrin](https://arbetsformedlingen.se/platsbanken/annonser/31558341)<br><sub>IKG Group AB · </sub> | Jönköping, Sweden | platsbanken | _not stated_ | — | 2026-10-06T10:47:25 |
 | 9 | [QA Assistent](https://polypeptidesweden.teamtailor.com/jobs/8509828-qa-assistent?utm_source=freehire.me)<br><sub>PolyPeptide Sweden · </sub> | Malmö, Sweden | freehire | _not stated_ | — | 2026-10-06 |
-| 9 | [QA Specialist med framtida QP ansvar](https://maglegroup.teamtailor.com/jobs/8505136-qa-specialist-med-framtida-qp-ansvar?utm_source=freehire.me)<br><sub>Magle Group · </sub> | Malmö, Sweden | freehire | _not stated_ | — | 2026-10-06 |
-| 9 | [QA Engineer](https://careers.sitoo.com/jobs/8504048-qa-engineer?utm_source=freehire.me)<br><sub>Sitoo · </sub> | Stockholm, Sweden | freehire | _not stated_ | — | 2026-10-06 |
 | 11 | [Testingenjör sökes till stor kund i Jönköping](https://arbetsformedlingen.se/platsbanken/annonser/31551902)<br><sub>Framtiden i Sverige AB · python</sub> | Jönköping, Sweden | platsbanken | _not stated_ | — | 2026-10-05T09:51:27 |
 | 9 | [Senior QA Specialist – Process & Validation](https://arbetsformedlingen.se/platsbanken/annonser/31551740)<br><sub>Rechon Life Science AB · </sub> | Malmö, Sweden | platsbanken | _not stated_ | — | 2026-10-05T09:36:47 |
 | 9 | [QA-konsult till Randstad Life Science](https://arbetsformedlingen.se/platsbanken/annonser/31555883)<br><sub>Randstad AB · </sub> | Solna, Sweden | platsbanken | _not stated_ | — | 2026-10-05T17:00:09 |
@@ -172,7 +181,6 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 9 | [Quality Engineer till vår kund – spännande möjlighet!](https://arbetsformedlingen.se/platsbanken/annonser/31538102)<br><sub>NN Bemanning & Rekrytering AB · </sub> | Hultsfred, Sweden | platsbanken | _not stated_ | — | 2026-09-30T15:53:14 |
 | 16 | [IT-konsulter & Systemutvecklare](https://arbetsformedlingen.se/platsbanken/annonser/31534172)<br><sub>Inis Creative AB · test automation, ci/cd, docker, python, java</sub> | Sweden | platsbanken | _not stated_ | — | 2026-09-29T20:38:15 |
 | 14 | [QA Manager, Product Growth](https://arbetsformedlingen.se/platsbanken/annonser/31533973)<br><sub>NaturalCycles Nordic AB · test automation, automation framework</sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-09-29T17:11:46 |
-| 9 | [Suppllier Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31528519)<br><sub>SAAB Aktiebolag · </sub> | Linköping, Sweden | platsbanken | _not stated_ | — | 2026-09-28T15:35:55 |
 | 9 | [Test Engineer (Senior)](https://arbetsformedlingen.se/platsbanken/annonser/31523981)<br><sub>Regma IT AB · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-09-27T01:28:20 |
 | 9 | [Test Engineer (Specialist)](https://arbetsformedlingen.se/platsbanken/annonser/31523979)<br><sub>Regma IT AB · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-09-27T01:26:45 |
 | 9 | [Test Engineer (Experienced)](https://arbetsformedlingen.se/platsbanken/annonser/31523977)<br><sub>Regma IT AB · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-09-27T01:23:45 |
@@ -205,8 +213,8 @@ Baseline: **60,000 EUR/yr** in PT. A ✅ marks pay that meets the standard-of-li
 | 9 | [Product Development Test Engineer - 19552](https://arbetsformedlingen.se/platsbanken/annonser/31486561)<br><sub>Veritaz AB · </sub> | Sweden | platsbanken | _not stated_ | — | 2026-09-16T19:09:10 |
 | 12 | [Software QA Lead](https://arbetsformedlingen.se/platsbanken/annonser/31480368)<br><sub>PrimeKey Solutions AB · test automation</sub> | Solna, Sweden | platsbanken | _not stated_ | — | 2026-09-15T15:23:40 |
 | 9 | [Supplier Quality Assurance Engineer to Beyond Gravity Linköping](https://arbetsformedlingen.se/platsbanken/annonser/31480972)<br><sub>Beyond Gravity Sweden AB · </sub> | Linköping, Sweden | platsbanken | _not stated_ | — | 2026-09-15T16:20:50 |
-| 23 | [Test Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31471816)<br><sub>AFRY AB · selenium, playwright, postman, test automation, python</sub> | Solna, Sweden | platsbanken | _not stated_ | — | 2026-09-14T09:49:48 |
-| 12 | [Test Engineer - Automotive](https://arbetsformedlingen.se/platsbanken/annonser/31471275)<br><sub>Kemizares AB · python, agile</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-09-14T09:00:00 |
+| 22 | [Test Automation Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31471816)<br><sub>AFRY AB · selenium, playwright, postman, test automation, python</sub> | Solna, Sweden | platsbanken | _not stated_ | — | 2026-09-14T09:49:48 |
+| 11 | [Test Engineer - Automotive](https://arbetsformedlingen.se/platsbanken/annonser/31471275)<br><sub>Kemizares AB · python, agile</sub> | Göteborg, Sweden | platsbanken | _not stated_ | — | 2026-09-14T09:00:00 |
 | 26 | [Senior QA Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31466655)<br><sub>Gears of Leo AB · playwright, api testing, postman, jenkins, java</sub> | Växjö, Sweden | platsbanken | _not stated_ | 🛂 yes | 2026-09-11T12:15:20 |
 | 8 | [Production Quality Engineer](https://arbetsformedlingen.se/platsbanken/annonser/31469448)<br><sub>Procruitment AB · </sub> | Stockholm, Sweden | platsbanken | _not stated_ | — | 2026-09-11T18:06:40 |
 | 8 | [Test Engineer to global company in Ludvika](https://arbetsformedlingen.se/platsbanken/annonser/31460273)<br><sub>A Hub AB · </sub> | Ludvika, Sweden | platsbanken | _not stated_ | — | 2026-09-10T10:35:58 |
